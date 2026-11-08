@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\felix\work\YudanPlugin\yd-plugin-runtime\src\main\AndroidManifest.xml:1:1-13
+INJECTED from E:\felix\work\YudanPlugin\yd-plugin-runtime\src\main\AndroidManifest.xml:1:1-13
+INJECTED from E:\felix\work\YudanPlugin\yd-plugin-runtime\src\main\AndroidManifest.xml:1:1-13
+	package
+		INJECTED from E:\felix\work\YudanPlugin\yd-plugin-runtime\src\main\AndroidManifest.xml
+		ADDED from E:\felix\work\YudanPlugin\yd-plugin-runtime\src\main\AndroidManifest.xml:1:1-13
+		INJECTED from E:\felix\work\YudanPlugin\yd-plugin-runtime\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\felix\work\YudanPlugin\yd-plugin-runtime\src\main\AndroidManifest.xml:1:1-13
+uses-sdk
+INJECTED from E:\felix\work\YudanPlugin\yd-plugin-runtime\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\felix\work\YudanPlugin\yd-plugin-runtime\src\main\AndroidManifest.xml
+INJECTED from E:\felix\work\YudanPlugin\yd-plugin-runtime\src\main\AndroidManifest.xml
+INJECTED from E:\felix\work\YudanPlugin\yd-plugin-runtime\src\main\AndroidManifest.xml
+INJECTED from E:\felix\work\YudanPlugin\yd-plugin-runtime\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\felix\work\YudanPlugin\yd-plugin-runtime\src\main\AndroidManifest.xml
+		ADDED from E:\felix\work\YudanPlugin\yd-plugin-runtime\src\main\AndroidManifest.xml
+		INJECTED from E:\felix\work\YudanPlugin\yd-plugin-runtime\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\felix\work\YudanPlugin\yd-plugin-runtime\src\main\AndroidManifest.xml
+		ADDED from E:\felix\work\YudanPlugin\yd-plugin-runtime\src\main\AndroidManifest.xml
+		INJECTED from E:\felix\work\YudanPlugin\yd-plugin-runtime\src\main\AndroidManifest.xml

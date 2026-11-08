@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.egogame.plugin.runtime.PluginRuntimeTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.egogame.plugin.runtime.PluginRuntimeTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.egogame.plugin.runtime.html">com.egogame.plugin.runtime</a> &gt; PluginRuntimeTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">31</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1m25.15s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a href="#">Tests</a>
+</li>
+<li>
+<a href="#">Standard output</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">Android版本和运行库不兼容会阻止安装</td>
+<td class="success">3.463s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">代码初装立即启用且健康确认后能再次获取</td>
+<td class="success">2.101s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">代码包缺号的多个DEX会被拒绝</td>
+<td class="success">1.572s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">代码更新须释放旧租约再显式启用且无需重启管理器</td>
+<td class="success">2.907s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">即使签名有效哈希目录错误仍会被拒绝</td>
+<td class="success">1.405s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">卸载默认保留数据且明确清除才删除</td>
+<td class="success">3.471s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">发布者变更必须显式授权且失败导入保留旧版本</td>
+<td class="success">4.714s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">只读检查完整验签但不信任未知证书或写入安装记录</td>
+<td class="success">1.554s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">只读检查拒绝篡改并清理暂存目录</td>
+<td class="success">1.321s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">大小写冲突的资源不能重复覆盖</td>
+<td class="success">1.489s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">完整签名之外追加资源不能搭便车通过验证</td>
+<td class="success">1.512s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">完整签名的代码包返回可信发布者及全部有效载荷哈希</td>
+<td class="success">10.509s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">已健康版本后续失败只禁用不恢复陈旧备份</td>
+<td class="success">2.944s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">已健康版本运行失败不能被即时回退覆盖用户数据</td>
+<td class="success">2.337s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">已安装图标不需要运行租约且禁用后仍可读取</td>
+<td class="success">1.980s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">拒绝降级和跨数据结构升级并保留现有版本</td>
+<td class="success">4.927s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">按扩展限制安装数量但允许原身份升级</td>
+<td class="success">8.257s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">撤销用户信任后已安装资源也不能继续获取</td>
+<td class="success">2.085s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">新版初始化失败可在当前进程恢复旧健康版本及数据</td>
+<td class="success">3.523s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">旧证书仅信任明确指定的插件且不扩大为全局信任</td>
+<td class="success">2.123s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">有效签名不会自动信任未知发布者</td>
+<td class="success">2.061s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">未健康新版本失败后回滚到健康版本并恢复数据备份</td>
+<td class="success">4.648s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">未完成健康确认就终止的初装版本下次启动禁用</td>
+<td class="success">1.577s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">未签名代码包不能导入</td>
+<td class="success">0.074s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">清理目录允许父路径别名但不把普通子目录当链接</td>
+<td class="success">0.064s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">目录穿越在写入目录外之前被拒绝</td>
+<td class="success">0.162s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">签名后篡改有效载荷会被拒绝</td>
+<td class="success">1.055s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">索引写入失败保留健康事务与启用状态</td>
+<td class="success">2.222s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">资源包不需要DEX但禁止夹带代码入口和DEX</td>
+<td class="success">4.151s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">资源包更新等待旧租约结束且重复释放不会破坏版本</td>
+<td class="success">3.333s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">非DEX有效载荷不会因文件扩展名通过</td>
+<td class="success">1.609s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Called loadFromPath(/system/framework/framework-res.apk, true); mode=binary sdk=28
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 8.14.5</a> at 2026年10月31日 下午9:48:36</p>
+</div>
+</div>
+</body>
+</html>

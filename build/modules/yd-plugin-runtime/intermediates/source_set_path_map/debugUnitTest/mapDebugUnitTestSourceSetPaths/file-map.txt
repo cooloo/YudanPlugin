@@ -1,0 +1,8 @@
+com.egogame.plugin.runtime.test.yd-plugin-runtime-debug-0 E:\felix\work\YudanPlugin\build\modules\yd-plugin-api\intermediates\packaged_res\debug\packageDebugResources
+com.egogame.plugin.runtime.test.yd-plugin-runtime-debug-1 E:\felix\work\YudanPlugin\build\modules\yd-plugin-music-api\intermediates\packaged_res\debug\packageDebugResources
+com.egogame.plugin.runtime.test.yd-plugin-runtime-test-2 E:\felix\work\YudanPlugin\build\modules\yd-plugin-runtime\generated\res\resValues\test\debug
+com.egogame.plugin.runtime.test.yd-plugin-runtime-mergeDebugUnitTestResources-3 E:\felix\work\YudanPlugin\build\modules\yd-plugin-runtime\intermediates\incremental\debugUnitTest\mergeDebugUnitTestResources\merged.dir
+com.egogame.plugin.runtime.test.yd-plugin-runtime-mergeDebugUnitTestResources-4 E:\felix\work\YudanPlugin\build\modules\yd-plugin-runtime\intermediates\incremental\debugUnitTest\mergeDebugUnitTestResources\stripped.dir
+com.egogame.plugin.runtime.test.yd-plugin-runtime-debugUnitTest-5 E:\felix\work\YudanPlugin\build\modules\yd-plugin-runtime\intermediates\merged_res\debugUnitTest\mergeDebugUnitTestResources
+com.egogame.plugin.runtime.test.yd-plugin-runtime-debug-6 E:\felix\work\YudanPlugin\build\modules\yd-plugin-runtime\intermediates\packaged_res\debug\packageDebugResources
+com.egogame.plugin.runtime.test.yd-plugin-runtime-debug-7 E:\felix\work\YudanPlugin\build\modules\yd-plugin-vehicle-model-api\intermediates\packaged_res\debug\packageDebugResources

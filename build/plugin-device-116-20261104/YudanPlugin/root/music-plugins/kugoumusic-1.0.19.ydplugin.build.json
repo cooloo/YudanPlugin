@@ -1,0 +1,389 @@
+{
+  "abi": {
+    "baselineSha256": "099f176a9ced89dde02658bfcc49c35f6fcb8a45b896354e7a57cf204ded01d5",
+    "classes": 572,
+    "memberReferences": 11499,
+    "releaseBuildId": "mumu-installed-normal-debug-2.0.23-257ab5387394e22d"
+  },
+  "classpathArtifacts": [
+    {
+      "name": "classes.jar",
+      "sha256": "e4d9df568fa234e1f57fd729c33322fc228461ef55925d787c82b980cd317837"
+    },
+    {
+      "name": "classes.jar",
+      "sha256": "d33b23736e466e2f6fd5f5d6c5b50599d1d5126e0454d1a9fab454de217d7e7f"
+    },
+    {
+      "name": "classes.jar",
+      "sha256": "f76d69cd96435466390393e3f1c144b83c80c4c017b9a78915fbe13c09b92bbd"
+    },
+    {
+      "name": "activity-1.7.0-api.jar",
+      "sha256": "68402c488d767ec7219d080bfa2f104d191feaf2117004158e18a4272d8478ad"
+    },
+    {
+      "name": "activity-compose-1.7.0-api.jar",
+      "sha256": "1e580099c97659adcd32883d61cb7fb8b4e5c947b87ab18aea0e330cc96002e1"
+    },
+    {
+      "name": "activity-ktx-1.7.0-api.jar",
+      "sha256": "8b154589382c35c1b47b8b123e1fd0af582bc15ca5f8c4bd2e1383c601d284ca"
+    },
+    {
+      "name": "media-1.6.0-api.jar",
+      "sha256": "d436ffd63c375ccac22b3576d88cdca4c11c58271ee912683240f152bed0ec21"
+    },
+    {
+      "name": "palette-ktx-1.0.0-api.jar",
+      "sha256": "799e57d53c848fb6853bc101933b1eddb04faef6de4e923b19826f49baa2acac"
+    },
+    {
+      "name": "palette-1.0.0-api.jar",
+      "sha256": "919aa55547ca13ca13ad725c7940ac95b96277c76abf73b31486d7e46d9181bd"
+    },
+    {
+      "name": "legacy-support-core-utils-1.0.0-api.jar",
+      "sha256": "7ffd3b4d33775e6b8511e0030e92812241d95e28781c524d80abd2bfff91f386"
+    },
+    {
+      "name": "loader-1.0.0-api.jar",
+      "sha256": "7b8d130a2134503e4153a9fcf0d6ce4ca7e995c57bafbb12e5f85cd796f2e31e"
+    },
+    {
+      "name": "core-1.12.0-api.jar",
+      "sha256": "67bb346a0df75c6635566372799e639b8612ea7f5094aff4c9b6d4acd7574d93"
+    },
+    {
+      "name": "lifecycle-livedata-2.6.2-api.jar",
+      "sha256": "29b1371a7ef8ebf26840ee3710a9f1e9f4115533d7823f6df3e1c7ad3642a5aa"
+    },
+    {
+      "name": "lifecycle-livedata-core-2.6.2-api.jar",
+      "sha256": "d976eb1ad207996d413a48d7cb791a4c407d8b638781abfebb23890fcebc04f3"
+    },
+    {
+      "name": "lifecycle-common-2.6.2.jar",
+      "sha256": "f34831b6c71cd844e1d35d1be49d5e79447c5ab856346531b1e8676fda7374b1"
+    },
+    {
+      "name": "coil-compose-2.5.0-api.jar",
+      "sha256": "68cc1846e8af383f1aab453f4a0bb9674b60e40c5721754cd29a956103fb2a13"
+    },
+    {
+      "name": "coil-compose-base-2.5.0-api.jar",
+      "sha256": "54621c13f5452f910450938c91440a8ea9845d8441a51ece9f42a6c2961037ea"
+    },
+    {
+      "name": "coil-2.5.0-api.jar",
+      "sha256": "8219af20d0206e54c01934fd808ac36b1205235a227af83882b340209902e71d"
+    },
+    {
+      "name": "coil-base-2.5.0-api.jar",
+      "sha256": "b6c83003769cec1e617be22a0083980b24974925a5f04aae86ca81b7af0cbc9d"
+    },
+    {
+      "name": "lifecycle-runtime-2.6.2-api.jar",
+      "sha256": "0270fef2a2f4c7a1c784cb6a17bf8b6017410d8c511aaa9aa608a69b30ae6004"
+    },
+    {
+      "name": "lifecycle-viewmodel-ktx-2.6.2-api.jar",
+      "sha256": "4e01348bec41dfe1c58aa2c395c50f8e486ff2d25cef583450c94ff4243a7434"
+    },
+    {
+      "name": "lifecycle-common-java8-2.6.2.jar",
+      "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3"
+    },
+    {
+      "name": "lifecycle-runtime-ktx-2.6.2-api.jar",
+      "sha256": "fc852dcdd70cab12a9ed082c38365cfd8fa25779ed07dcb7f7bc620434a5406c"
+    },
+    {
+      "name": "lifecycle-viewmodel-2.6.2-api.jar",
+      "sha256": "3ab961a66c0bf6dfada8dd056ce8a5903e1b50b911595edbbeffa6d5dc9ab278"
+    },
+    {
+      "name": "lifecycle-runtime-compose-2.6.2-api.jar",
+      "sha256": "14995d69284a21d25fb66c07f2c9575b37174c6decaf2b5e910fca20b1742040"
+    },
+    {
+      "name": "lifecycle-viewmodel-compose-2.6.2-api.jar",
+      "sha256": "6bb7ce477e7c1f1d97a6c4fbdb7086292e4b353d8d9584d7affe3ab99f7d5cb2"
+    },
+    {
+      "name": "lifecycle-viewmodel-savedstate-2.6.2-api.jar",
+      "sha256": "eb3d8930c8b59e9400462c22a5e91496c47b0422fcd6f765993183007829759d"
+    },
+    {
+      "name": "core-ktx-1.12.0-api.jar",
+      "sha256": "76ed9908c5da6994d9718777b609f14492e1e26f8e03f15cc3b4d5cfbf5cd49d"
+    },
+    {
+      "name": "media3-datasource-okhttp-1.2.1-api.jar",
+      "sha256": "c44967c774dd78f2e4f40704f333f49aee12b7fe34cf9e507da209c12767237d"
+    },
+    {
+      "name": "okhttp-4.9.3.jar",
+      "sha256": "93ecd6cba19d87dccfe566ec848d91aae799e3cf16c00709358ea69bd9227219"
+    },
+    {
+      "name": "material3-release-api.jar",
+      "sha256": "66147291da2897f5974431c6dc1219879712778f4200dce08e5d37c3e0713057"
+    },
+    {
+      "name": "foundation-layout-release-api.jar",
+      "sha256": "2ba2378af36945ea1bcb339d4cabfec3b5a7a0c6b1c074df791ea4c3e8d5db35"
+    },
+    {
+      "name": "material-icons-core-release-api.jar",
+      "sha256": "78c44850f14b2bbade5a0b5cd005d7d98da043cfb62f1a485b49d0aefef9bd70"
+    },
+    {
+      "name": "material-ripple-release-api.jar",
+      "sha256": "45aa9fe1a9b28c8cb4408005c789e23bf5a357f2f1a456effc2dc4d696b7f2f5"
+    },
+    {
+      "name": "foundation-release-api.jar",
+      "sha256": "c52197610782e141d3ecdc50bcde5158eeae8a47ba4121104056e31782e160a2"
+    },
+    {
+      "name": "animation-core-release-api.jar",
+      "sha256": "e4469b83bf2d178d810b79997ab92141e5b054b93d72e8de6e359c267a73dd80"
+    },
+    {
+      "name": "animation-release-api.jar",
+      "sha256": "c1f1526da14e7facb52a84b2475917306975c2c68cbbafa742aab7bb712bb918"
+    },
+    {
+      "name": "ui-util-release-api.jar",
+      "sha256": "7998acf51ff93cbc6640edb417cfea4079937a24d3b569267ac5132e44b024d4"
+    },
+    {
+      "name": "ui-unit-release-api.jar",
+      "sha256": "4b3d2fe92b614dfe899bcabe2f506c01cf5e432ccc4713d531a062e986dddd71"
+    },
+    {
+      "name": "ui-text-release-api.jar",
+      "sha256": "eec264b5fc7752ac2e9cb003f94f3abd352f5c854c81ddbdb3c406c72dfb99c2"
+    },
+    {
+      "name": "ui-graphics-release-api.jar",
+      "sha256": "87702f330dfc436acb7ed4df66452a65163702f7a04cd60da3dd6b27bcb36080"
+    },
+    {
+      "name": "ui-geometry-release-api.jar",
+      "sha256": "53ea03f43876937ae9555c20fcb9c1c20d0f4526c23e41de268adba27803b788"
+    },
+    {
+      "name": "ui-release-api.jar",
+      "sha256": "89ff26fbe00a5624d95f54d8e0ea14140af166351af3a528ca515d9aefa999e2"
+    },
+    {
+      "name": "runtime-saveable-release-api.jar",
+      "sha256": "5caadedfaae5d3666aec012fffdf11d1c88ac4c3ae9e01b3f7d57ccc85bc46c9"
+    },
+    {
+      "name": "runtime-release-api.jar",
+      "sha256": "e83f5013ed36a33b66e1a3a0655bb1a8b67dea578cf179165316370890fdc595"
+    },
+    {
+      "name": "kotlinx-coroutines-core-jvm-1.7.3.jar",
+      "sha256": "1ab3acc38f3e7355c4f9d1ec62107a46fa73c899f3070d055e5d4373dfe67e12"
+    },
+    {
+      "name": "kotlinx-coroutines-android-1.7.3.jar",
+      "sha256": "59fffb26bee12c32dadcfa5d420c2a7db85d3253518128b170efda726613256d"
+    },
+    {
+      "name": "okio-jvm-3.6.0.jar",
+      "sha256": "67543f0736fc422ae927ed0e504b98bc5e269fda0d3500579337cb713da28412"
+    },
+    {
+      "name": "kotlin-stdlib-jdk8-1.8.22.jar",
+      "sha256": "4198b0eaf090a4f25b6f7e5a59581f4314ba8c9f6cd1d13ee9d348e65ed8f707"
+    },
+    {
+      "name": "media3-exoplayer-1.2.1-api.jar",
+      "sha256": "e848fe381120aeaa11f6f5cdee0bbad25a049d25c787578492186ba9c1f2566f"
+    },
+    {
+      "name": "media3-session-1.2.1-api.jar",
+      "sha256": "df4bca53c641337804ed2faf5674d2fea8465b6f4ee8dd291d43f7e039c4d3ab"
+    },
+    {
+      "name": "media3-common-1.2.1-api.jar",
+      "sha256": "9c01cee6d93f6016f1464500f6f9eb05b9074c1796d209a3feab13fe4e392dbd"
+    },
+    {
+      "name": "annotation-experimental-1.4.0-api.jar",
+      "sha256": "2dc01feb1bbc564efc13ec8608b8f34b4d32daffe6c49af37a42f7ccd3e5ece7"
+    },
+    {
+      "name": "savedstate-1.2.1-api.jar",
+      "sha256": "a5ecdbfe109352f70109110a9971a8296a3dcea9882b5defff2044e1704df6b1"
+    },
+    {
+      "name": "savedstate-ktx-1.2.1-api.jar",
+      "sha256": "ae95c7916ab61b9813ff6684b45e64e71687e1239d125ca70fd82178209ede26"
+    },
+    {
+      "name": "kotlin-stdlib-jdk7-1.8.22.jar",
+      "sha256": "055f5cb24287fa106100995a7b47ab92126b81e832e875f5fa2cf0bd55693d0b"
+    },
+    {
+      "name": "versionedparcelable-1.1.1-api.jar",
+      "sha256": "ffa7b07e41fa6e83e9f6f7dedd7b3a7f084e33420fa2b0f61599a3da816d170c"
+    },
+    {
+      "name": "collection-jvm-1.4.0.jar",
+      "sha256": "d5cf7b72647c7995071588fe870450ff9c8f127f253d2d4851e161b800f67ae0"
+    },
+    {
+      "name": "core-runtime-2.1.0-api.jar",
+      "sha256": "1f2bdae1083ca3939624e83878d8c3fe98c1b8928cf3b04c006333112c43f6ec"
+    },
+    {
+      "name": "core-common-2.2.0.jar",
+      "sha256": "65308a06b1c00ee186cb9e19321383f043b993813f1522c47f4a3e3303bdba41"
+    },
+    {
+      "name": "documentfile-1.0.0-api.jar",
+      "sha256": "b769735f275fbb87b88db79b1e5f969e7a8340516382884c4e331e9f4fd2221b"
+    },
+    {
+      "name": "localbroadcastmanager-1.0.0-api.jar",
+      "sha256": "b4dae6e8cdfd8620c929f0dd524e0286d629396a15d86c3bcd2a523b8bdbfb13"
+    },
+    {
+      "name": "print-1.0.0-api.jar",
+      "sha256": "a50a264019b3aa448644c7e119c36061397ec176833068a84e848936118b0f64"
+    },
+    {
+      "name": "annotation-jvm-1.7.0.jar",
+      "sha256": "e36b8e4b8393a4adc74e3d4ab22ad5a36396f0cea2e40b5734eae14937dfd224"
+    },
+    {
+      "name": "kotlin-stdlib-1.8.22.jar",
+      "sha256": "03a5c3965cc37051128e64e46748e394b6bd4c97fa81c6de6fc72bfd44e3421b"
+    },
+    {
+      "name": "core-3.4.1.jar",
+      "sha256": "acfa30338c26267b6cab665509c2251bb96e8350bfcad89d59b949ba77011f8d"
+    },
+    {
+      "name": "classes.jar",
+      "sha256": "06dea1ece8facef31f2e88abe399fe57b6c37cfded40506a9779f52e5925a039"
+    },
+    {
+      "name": "classes.jar",
+      "sha256": "55530da73bce271bfb6a57466516f721eb1fd01d0b451e4a146db1bc688bf2a5"
+    },
+    {
+      "name": "kotlin-stdlib-common-1.8.22.jar",
+      "sha256": "d0c2365e2437ef70f34586d50f055743f79716bcfe65e4bc7239cdd2669ef7c5"
+    },
+    {
+      "name": "annotations-23.0.0.jar",
+      "sha256": "7b0f19724082cbfcbc66e5abea2b9bc92cf08a1ea11e191933ed43801eb3cd05"
+    },
+    {
+      "name": "media3-container-1.2.1-api.jar",
+      "sha256": "b1c275a65ffc27c6c4410aa7073a6a1221bce8b91538681afc31bcc2de5f5396"
+    },
+    {
+      "name": "media3-datasource-1.2.1-api.jar",
+      "sha256": "e6c929658290d2cecfbe94088806202f4b97f33f1418dcd5ce40472e0e983141"
+    },
+    {
+      "name": "media3-decoder-1.2.1-api.jar",
+      "sha256": "3d3dc9c6447dad5546943d88c9f05eea92aee007a2e6853fe7c5fd00fc35c8df"
+    },
+    {
+      "name": "media3-extractor-1.2.1-api.jar",
+      "sha256": "c57bfb8ee1666e3cddb17b2f3fefff6d842eb1d32d00584671cd4f150562db62"
+    },
+    {
+      "name": "media3-database-1.2.1-api.jar",
+      "sha256": "b661e563fa71ae3a2589ab1ec93a5bbed66b3d659b5bd666c466604675ea2a18"
+    },
+    {
+      "name": "guava-31.1-android.jar",
+      "sha256": "32ac2ed709d96d278b5d2e3e5cea178fa4939939c525fb647532f013308db309"
+    },
+    {
+      "name": "failureaccess-1.0.1.jar",
+      "sha256": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+    },
+    {
+      "name": "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+      "sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+    }
+  ],
+  "compileSdk": 34,
+  "dexAbi": {
+    "classes": 575
+  },
+  "inputs": {
+    "plugin-classes.jar": "d3bd58f35aaf77dd1ca4f059bcc51a6dfe0a32a61f6c32b6a4dceb5b11e722cb",
+    "plugin.json": "e0f2bd48d75752c1bf7c2228971dca01f788a9648d63db043789ff34a2be9cfb"
+  },
+  "minAndroidApi": 28,
+  "packageSha256": "ff1ea29f2a3c92a231287d0aceb6c6556c9c569a395078771393c2bd39df6e35",
+  "runtimeRequirements": [
+    {
+      "abi": "1.0.0",
+      "id": "yudan.plugin-sdk"
+    },
+    {
+      "abi": "1.8.22",
+      "id": "kotlin"
+    },
+    {
+      "abi": "1.6.1-host-icons-v1",
+      "id": "androidx.compose"
+    },
+    {
+      "abi": "1.2.0",
+      "id": "androidx.compose.material3"
+    },
+    {
+      "abi": "1.7.0",
+      "id": "androidx.activity"
+    },
+    {
+      "abi": "2.6.2",
+      "id": "androidx.lifecycle"
+    },
+    {
+      "abi": "1.2.1",
+      "id": "androidx.media3"
+    },
+    {
+      "abi": "2.5.0",
+      "id": "coil"
+    },
+    {
+      "abi": "1.7.3",
+      "id": "kotlinx.coroutines"
+    },
+    {
+      "abi": "4.9.3",
+      "id": "okhttp"
+    },
+    {
+      "abi": "1.12.0",
+      "id": "androidx.core"
+    },
+    {
+      "abi": "1.0.0",
+      "id": "androidx.palette"
+    },
+    {
+      "abi": "3.4.1",
+      "id": "zxing"
+    }
+  ],
+  "schemaVersion": 1,
+  "sdkVersion": "1.0.0",
+  "signerCertificateSha256": "52f44774ef0da05fde3fe5e5e03b01cb2fbc48183b6ef4c73308c7010a543b46"
+}

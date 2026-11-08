@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.egogame.plugin.runtime.PluginRuntimeTest" tests="31" skipped="0" failures="0" errors="0" timestamp="2026-10-31T13:47:11.068Z" hostname="FELIX-LUO" time="85.153">
+  <properties/>
+  <testcase name="完整签名的代码包返回可信发布者及全部有效载荷哈希" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="10.509"/>
+  <testcase name="已健康版本后续失败只禁用不恢复陈旧备份" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="2.944"/>
+  <testcase name="资源包不需要DEX但禁止夹带代码入口和DEX" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="4.151"/>
+  <testcase name="新版初始化失败可在当前进程恢复旧健康版本及数据" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="3.523"/>
+  <testcase name="索引写入失败保留健康事务与启用状态" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="2.222"/>
+  <testcase name="已安装图标不需要运行租约且禁用后仍可读取" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="1.98"/>
+  <testcase name="发布者变更必须显式授权且失败导入保留旧版本" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="4.714"/>
+  <testcase name="按扩展限制安装数量但允许原身份升级" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="8.257"/>
+  <testcase name="Android版本和运行库不兼容会阻止安装" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="3.463"/>
+  <testcase name="有效签名不会自动信任未知发布者" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="2.061"/>
+  <testcase name="只读检查拒绝篡改并清理暂存目录" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="1.321"/>
+  <testcase name="拒绝降级和跨数据结构升级并保留现有版本" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="4.927"/>
+  <testcase name="资源包更新等待旧租约结束且重复释放不会破坏版本" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="3.333"/>
+  <testcase name="卸载默认保留数据且明确清除才删除" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="3.471"/>
+  <testcase name="未健康新版本失败后回滚到健康版本并恢复数据备份" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="4.648"/>
+  <testcase name="撤销用户信任后已安装资源也不能继续获取" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="2.085"/>
+  <testcase name="代码初装立即启用且健康确认后能再次获取" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="2.101"/>
+  <testcase name="目录穿越在写入目录外之前被拒绝" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="0.162"/>
+  <testcase name="已健康版本运行失败不能被即时回退覆盖用户数据" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="2.337"/>
+  <testcase name="只读检查完整验签但不信任未知证书或写入安装记录" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="1.554"/>
+  <testcase name="非DEX有效载荷不会因文件扩展名通过" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="1.609"/>
+  <testcase name="即使签名有效哈希目录错误仍会被拒绝" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="1.405"/>
+  <testcase name="清理目录允许父路径别名但不把普通子目录当链接" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="0.064"/>
+  <testcase name="代码包缺号的多个DEX会被拒绝" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="1.572"/>
+  <testcase name="未签名代码包不能导入" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="0.074"/>
+  <testcase name="完整签名之外追加资源不能搭便车通过验证" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="1.512"/>
+  <testcase name="大小写冲突的资源不能重复覆盖" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="1.489"/>
+  <testcase name="代码更新须释放旧租约再显式启用且无需重启管理器" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="2.907"/>
+  <testcase name="未完成健康确认就终止的初装版本下次启动禁用" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="1.577"/>
+  <testcase name="旧证书仅信任明确指定的插件且不扩大为全局信任" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="2.123"/>
+  <testcase name="签名后篡改有效载荷会被拒绝" classname="com.egogame.plugin.runtime.PluginRuntimeTest" time="1.055"/>
+  <system-out><![CDATA[Called loadFromPath(/system/framework/framework-res.apk, true); mode=binary sdk=28
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

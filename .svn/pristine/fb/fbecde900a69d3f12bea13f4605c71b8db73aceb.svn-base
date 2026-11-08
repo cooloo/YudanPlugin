@@ -1,0 +1,3 @@
+apply from: new File(projectDir.parentFile, 'gradle/yd-plugin-library.gradle')
+android { namespace 'com.egogame.plugin.vehiclemodel.api' }
+dependencies { api project(':yd-plugin-api') }

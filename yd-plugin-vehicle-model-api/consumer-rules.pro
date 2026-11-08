@@ -1,0 +1,2 @@
+-keep class com.egogame.plugin.vehiclemodel.api.** { *; }
+-keep interface com.egogame.plugin.vehiclemodel.api.** { *; }

@@ -1,0 +1,2 @@
+apply from: new File(projectDir.parentFile, 'gradle/yd-plugin-library.gradle')
+android { namespace 'com.egogame.plugin.api' }

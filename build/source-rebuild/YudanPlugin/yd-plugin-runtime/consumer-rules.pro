@@ -1,0 +1,2 @@
+-keep class com.egogame.plugin.runtime.PluginManifest { *; }
+-keep class com.egogame.plugin.runtime.PluginManifest$* { *; }

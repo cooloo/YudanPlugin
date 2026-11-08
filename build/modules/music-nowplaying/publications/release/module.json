@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.egogame.plugin",
+    "module": "music-nowplaying",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "music-nowplaying-1.0.0.aar",
+          "url": "music-nowplaying-1.0.0.aar",
+          "size": 317795,
+          "sha512": "81f04bc7047d0318a2a2ee89485939e42caf44b968eec50334a6b9478a921f70f796f22e7d2bea67da5541ed2c6b6c022d8128d2f8d23473f5362f3a47201c59",
+          "sha256": "535ab8de4fbc355935f2ac513f7a638ffef986047485c5d5b563da4c6f2e31eb",
+          "sha1": "bf2a393175625dcdbd374ca4979294db81cb9ac8",
+          "md5": "c19ed048690cd067fe03c959b21c3ac4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.egogame.plugin",
+          "module": "music-plugin-common",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "music-nowplaying-1.0.0.aar",
+          "url": "music-nowplaying-1.0.0.aar",
+          "size": 317795,
+          "sha512": "81f04bc7047d0318a2a2ee89485939e42caf44b968eec50334a6b9478a921f70f796f22e7d2bea67da5541ed2c6b6c022d8128d2f8d23473f5362f3a47201c59",
+          "sha256": "535ab8de4fbc355935f2ac513f7a638ffef986047485c5d5b563da4c6f2e31eb",
+          "sha1": "bf2a393175625dcdbd374ca4979294db81cb9ac8",
+          "md5": "c19ed048690cd067fe03c959b21c3ac4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "music-nowplaying-1.0.0-sources.jar",
+          "url": "music-nowplaying-1.0.0-sources.jar",
+          "size": 23782,
+          "sha512": "f23897f6055ad28b10f87fce7ac573e1e3f9e9c314373f5fbe90a73a4ab63ccd307ebd319218588d92afd90d55b94bfd26225272b55755745421ac6e42ea72e3",
+          "sha256": "e1b4f7eebaa5be2ad001a51f715ab5c58127c18f7bf9807e5865c9694193b840",
+          "sha1": "52bfbc5e33b1cfa561670be90b0a57799e298347",
+          "md5": "02679d4527a905b7370429a74ac28740"
+        }
+      ]
+    }
+  ]
+}

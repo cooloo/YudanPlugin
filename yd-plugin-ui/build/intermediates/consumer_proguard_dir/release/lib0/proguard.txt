@@ -1,0 +1,2 @@
+-keep class com.egogame.plugin.ui.** { *; }
+-keep interface com.egogame.plugin.ui.** { *; }

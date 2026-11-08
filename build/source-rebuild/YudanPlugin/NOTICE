@@ -1,0 +1,8 @@
+鱼蛋插件 SDK
+
+通用插件协议、运行时及 UI 桥由鱼蛋桌面迁出，版权归相应原作者所有。
+五个 yd-plugin-* 模块和 example-plugin 采用 Apache License 2.0。
+
+音乐衍生实现和音乐构建工具保留 LGPL-3.0，具体目录归属及来源见 docs/许可归属.md。
+网易云接口及 weapi/eapi 加密代码的上游来源为 missuo/kumone。
+既有源码中的第三方版权和许可声明继续有效。

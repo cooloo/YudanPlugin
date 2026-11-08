@@ -1,0 +1,23 @@
+# 许可归属
+
+## 模块边界
+
+| 路径 | 许可 | 来源与修改 |
+| --- | --- | --- |
+| 五个 `yd-plugin-*` 目录 | Apache-2.0 | 从鱼蛋桌面迁出的通用插件协议、运行时及 UI 桥，包名和公开接口不变 |
+| `example-plugin` | Apache-2.0 | 独立生命周期示例与原创位图图标 |
+| `app`、`qqmusic`、`kugoumusic` | LGPL-3.0 | 从 `cloudmusic-car` 原样迁入业务源码、资源及清单；本次仅修改构建归属和版本 |
+| `music-plugin-common`、`shared/nowplaying` | LGPL-3.0 | 从 `cloudmusic-car` 迁入公共媒体桥、播放器包装及播放页，生命周期实现保持原样 |
+| `build-logic`、`tools` | LGPL-3.0 | 延续音乐项目现有构建工具许可；本次增加单包公共实现、公共 ABI、签名与独立示例支持 |
+| SDK 的 `gradle/yd-plugin-library.gradle` | Apache-2.0 | 从鱼蛋桌面迁入的 SDK Maven 发布配置 |
+| Gradle 包装器 | Apache-2.0 | Gradle 官方包装器，保留上游版权 |
+
+许可证全文见 `licenses/Apache-2.0.txt`、`licenses/LGPL-3.0.txt` 和 `licenses/GPL-3.0.txt`。各音乐模块保留单独的 LGPL 许可副本；源码中已有版权、来源和许可声明继续有效。
+
+网易云接口与 weapi/eapi 加密移植自 [missuo/kumone](https://github.com/missuo/kumone)，保留原有归属。其他第三方依赖按各自上游许可证分发，由宿主提供的第三方二进制未打进音乐插件。发布者应保留对应的第三方声明。
+
+## 本次修改说明
+
+2026-10-31：五个通用 SDK 与 LGPL 音乐实现拆为清晰模块；两个音乐公共实现改为随各插件进入 DEX，宿主共享类继续仅编译引用；原公开 API、源码包名及媒体播放生命周期未调整。新增专用签名生成、最终 DEX 归属检查与不依赖桌面私有代码的示例。迁移来源保留在旧工作目录，不删除用户未提交内容。
+
+对应源码的交付范围包含上述 LGPL 模块、完整构建脚本、公开 ABI 基线及使用自有密钥重建替换的步骤。官方私钥和密码属于本地签名材料，不是重建用户修改版本的必要输入。

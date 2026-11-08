@@ -1,0 +1,1115 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "0045b1c253c62443e7d2a9d6fc178ff4aa64ddba54261aa2aa61f505db8f390b",
+      "bytes": 275
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "af77bc44ea0f78f35fbf630c8b7b7ff52ed3d1b41786c23bf056193acb249b79",
+      "bytes": 363
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "sha256": "9f8b7089a94c826dcd2d89a34b8c2fa7df6913f078cedc5b884bf36a1d4f9d94",
+      "bytes": 428
+    },
+    {
+      "path": "app/LICENSE",
+      "sha256": "99ca28591e357c5d250eed946142897c11a697b9ff1cc030c5205bb3ff5f6976",
+      "bytes": 7819
+    },
+    {
+      "path": "app/proguard-rules.pro",
+      "sha256": "e8bab2cf3854e8f18433cb6bb9034daece45ddf70c86a08ee63db2a211c12d5d",
+      "bytes": 291
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "sha256": "daa0fb1f32ba7ea85a07ef6302ab3d58c3407d7fd2aa03ec132cb9e38e8d9849",
+      "bytes": 52
+    },
+    {
+      "path": "app/src/main/java/com/cloudmusic/car/api/LyricsParser.kt",
+      "sha256": "4b90ab9c64adffaa719c9c24d90dd27e15b36bde425b0dd11cbf4eb9a8e8b4d5",
+      "bytes": 2667
+    },
+    {
+      "path": "app/src/main/java/com/cloudmusic/car/api/Models.kt",
+      "sha256": "086af6679379ba4adb47ddd121ba061198c2ba60af8c2a10cd56da519314643c",
+      "bytes": 5686
+    },
+    {
+      "path": "app/src/main/java/com/cloudmusic/car/api/NeteaseApi.kt",
+      "sha256": "9e66142a15abe578d902b6b677e2746989d7f0a23980fe38229ef9768911292a",
+      "bytes": 10830
+    },
+    {
+      "path": "app/src/main/java/com/cloudmusic/car/api/NeteaseClient.kt",
+      "sha256": "7ac9f83f99028e0d8b34de28ccf1b9006c714f932d16f9808830f1b535846ed9",
+      "bytes": 12864
+    },
+    {
+      "path": "app/src/main/java/com/cloudmusic/car/api/NeteaseCrypto.kt",
+      "sha256": "1e817645f0c5bb90ba858c8c5bf42b9e57ae3251a151ce6f5e30e22f85a56bfa",
+      "bytes": 2833
+    },
+    {
+      "path": "app/src/main/java/com/cloudmusic/car/data/MusicCache.kt",
+      "sha256": "baeceebdce1e1804fb2da1e2f3a23e5a7a2aaf0836ac93c024377a3a3f77486e",
+      "bytes": 13605
+    },
+    {
+      "path": "app/src/main/java/com/cloudmusic/car/data/Stores.kt",
+      "sha256": "56848cca6c6c45837b41a59ba07d90c26c84b593e84ca0efa59084b12645a6bd",
+      "bytes": 5094
+    },
+    {
+      "path": "app/src/main/java/com/cloudmusic/car/player/PlaybackSnapshotStore.kt",
+      "sha256": "e6a1a8c0c74d750ac020aa4dbe9e06a1eca7c51890b7c4569124096a57397f94",
+      "bytes": 5259
+    },
+    {
+      "path": "app/src/main/java/com/cloudmusic/car/player/PlayerHub.kt",
+      "sha256": "81a2da77de07717adca5f6395d69cfd236875a15e9056a2b523a88630d101a8e",
+      "bytes": 35868
+    },
+    {
+      "path": "app/src/main/java/com/cloudmusic/car/plugin/CloudMusicPlugin.kt",
+      "sha256": "4c7f37f9098c59d7ff03c245f21d11441f4612b4198f44a25f9f7d6a33dc66b8",
+      "bytes": 2166
+    },
+    {
+      "path": "app/src/main/java/com/cloudmusic/car/ui/AppRoot.kt",
+      "sha256": "755865ee948f65e9356d5db8fa05784d447cbaf332eeb73d8ed7e654aca74014",
+      "bytes": 14731
+    },
+    {
+      "path": "app/src/main/java/com/cloudmusic/car/ui/components/Components.kt",
+      "sha256": "d2b6c73985f69911005b66b904408ba3ac04ce34480d4e4202fb005db1d8a929",
+      "bytes": 12676
+    },
+    {
+      "path": "app/src/main/java/com/cloudmusic/car/ui/Nav.kt",
+      "sha256": "affc838b326f45a71e880bb8779c7417b2c158c0b1973b9604f265a84b1deb52",
+      "bytes": 4038
+    },
+    {
+      "path": "app/src/main/java/com/cloudmusic/car/ui/screens/AccountScreens.kt",
+      "sha256": "d08a32e91e5019eddf0bd068248a5e3365e9426d6d320a19ea0ca3ebc333dfb9",
+      "bytes": 14202
+    },
+    {
+      "path": "app/src/main/java/com/cloudmusic/car/ui/screens/BrowseScreens.kt",
+      "sha256": "ee1189436454ec4fdeedd5f1570ffb11a7cbcc217e00f7483b16dc73b11bc81e",
+      "bytes": 6302
+    },
+    {
+      "path": "app/src/main/java/com/cloudmusic/car/ui/screens/HomeScreen.kt",
+      "sha256": "df450f02ec581dc95cd9f396c2eb2b8f65d3568281944795d0b36593076b8aa2",
+      "bytes": 9029
+    },
+    {
+      "path": "app/src/main/java/com/cloudmusic/car/ui/screens/NowPlayingScreen.kt",
+      "sha256": "8f460446a2ce0239c0b80a92c09264006981724a70dc887bf03eee1da80787b2",
+      "bytes": 4709
+    },
+    {
+      "path": "app/src/main/java/com/cloudmusic/car/ui/screens/SearchScreen.kt",
+      "sha256": "8f02e4070b3c22e57a68d3e641b7def7768c5934a457d94f9ca1cd9c66ff8695",
+      "bytes": 10290
+    },
+    {
+      "path": "app/src/main/java/com/cloudmusic/car/ui/screens/TrackListScreens.kt",
+      "sha256": "784e93a599e9472dca4d4bffd102181c83eacb80475711ea05b084c18abfcf99",
+      "bytes": 22697
+    },
+    {
+      "path": "app/src/main/java/com/cloudmusic/car/ui/theme/Theme.kt",
+      "sha256": "fe834b080ecbfb61c1d6ef1f528449e883d51982e3a028cbda38eab9594afb74",
+      "bytes": 4179
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_background.xml",
+      "sha256": "6854826831d17b0d4798b316890b143c7b83cfc8d85abbae7168dba2aeebedf9",
+      "bytes": 212
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "sha256": "e790bd739cd96bc032271c893156f01a64215cf4a948017f6370794cf1da6ab6",
+      "bytes": 421
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/ic_cloudmusic_app.png",
+      "sha256": "d95a52071225884fe5d09c1fb60c1b6e3d7fd2b594951cb5917fcca0837c177e",
+      "bytes": 1135559
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "sha256": "bf4c6d7d484d541c17ded4045f940cce367ed7641212e0f3745c5a0cf76e6736",
+      "bytes": 311
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "sha256": "d5bf4187a1811847504542eb2a2032d285bfb726415410935c5f96c04cf6613c",
+      "bytes": 75
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "sha256": "a34d4489c57ef03a9ad63f6ee122c75d604158d3865fb923b8bd7c5bc2e0bd7a",
+      "bytes": 359
+    },
+    {
+      "path": "app/src/test/java/com/cloudmusic/car/api/LyricsParserTest.kt",
+      "sha256": "5f1744d2ad1518d4eb48dd6b12228a4625ddbc134ac1ab4dede15773323513d1",
+      "bytes": 910
+    },
+    {
+      "path": "build-logic/build.gradle.kts",
+      "sha256": "4491cccaebe4918015b9cf18efc9066847e03dcdc7174f2947d778a859719598",
+      "bytes": 637
+    },
+    {
+      "path": "build-logic/LICENSE",
+      "sha256": "99ca28591e357c5d250eed946142897c11a697b9ff1cc030c5205bb3ff5f6976",
+      "bytes": 7819
+    },
+    {
+      "path": "build-logic/settings.gradle.kts",
+      "sha256": "50057e6448eec67c1fb962305165b2a39dcff733e40faf2a7ecfb0ea1a9d5a20",
+      "bytes": 229
+    },
+    {
+      "path": "build-logic/src/main/groovy/PackageYdMusicTask.groovy",
+      "sha256": "ee63a59af632364c53de357a32c1203039744929dd1334d1726e6d563c0a7d62",
+      "bytes": 2846
+    },
+    {
+      "path": "build-logic/src/main/groovy/YdMusicLibraryPlugin.groovy",
+      "sha256": "bac2f5c9b449d96c07d804f497b411ea0c391bcacdc5612639dcb89105f7f9ee",
+      "bytes": 3446
+    },
+    {
+      "path": "build-logic/src/main/groovy/YdMusicPackagePlugin.groovy",
+      "sha256": "c82f54d4bd23b3c4d96e4cdf64ba24329ecc1d3f94c40d6e42ce36fab4a5d358",
+      "bytes": 3103
+    },
+    {
+      "path": "build.gradle.kts",
+      "sha256": "1d06345f1134d0ad3dc837d62011606e473419bd51b31416e645e38497d2f61e",
+      "bytes": 801
+    },
+    {
+      "path": "COPYING.GPL",
+      "sha256": "bfde1fd94c3b17b89fbbfa6321660c8284f631bf126db1e0a32c897944a842db",
+      "bytes": 35825
+    },
+    {
+      "path": "docs/licenses/Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    {
+      "path": "docs/licenses/GPL-3.0.txt",
+      "sha256": "bfde1fd94c3b17b89fbbfa6321660c8284f631bf126db1e0a32c897944a842db",
+      "bytes": 35825
+    },
+    {
+      "path": "docs/licenses/LGPL-3.0.txt",
+      "sha256": "99ca28591e357c5d250eed946142897c11a697b9ff1cc030c5205bb3ff5f6976",
+      "bytes": 7819
+    },
+    {
+      "path": "docs/official-plugin-certificate.der",
+      "sha256": "52f44774ef0da05fde3fe5e5e03b01cb2fbc48183b6ef4c73308c7010a543b46",
+      "bytes": 1010
+    },
+    {
+      "path": "docs/runtime/host-abi.json",
+      "sha256": "01aec783cd6c44761d73d174fb4e65a35063cd22a1ad69592bb2c1d27244a81d",
+      "bytes": 20762100
+    },
+    {
+      "path": "docs/runtime/public-resources-20261102.txt",
+      "sha256": "8566e4c34dc92c13ce1a9533b9079b8efa4b9d9024940d99d54533531f4ca7e9",
+      "bytes": 7106
+    },
+    {
+      "path": "docs/runtime/release-resources.txt",
+      "sha256": "af51b6c4fda6158b454a168d77619663f59ced2fc1ade3348aaf99d39c11f606",
+      "bytes": 5267
+    },
+    {
+      "path": "docs/许可归属.md",
+      "sha256": "4a716107710bdea54b6a7e16150e255f334badbd361ee2c042e3bef169942cbf",
+      "bytes": 1111
+    },
+    {
+      "path": "example-plugin/build.gradle.kts",
+      "sha256": "cb78b9bc8c4c775a19b62860e68a324ae702ba6e28d2617addb40612874446bf",
+      "bytes": 546
+    },
+    {
+      "path": "example-plugin/icon.png",
+      "sha256": "0886436c299b66e57e7a7cc1fea9c92b835cd2feb9f9c60ca4b0e8ca70f4543a",
+      "bytes": 219
+    },
+    {
+      "path": "example-plugin/LICENSE",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "bytes": 7652
+    },
+    {
+      "path": "example-plugin/plugin.json",
+      "sha256": "a0517f8e67770a61fea3a49e3e1a5addc6d092f29d5aebe8a8cf671dcbd2d402",
+      "bytes": 499
+    },
+    {
+      "path": "example-plugin/src/main/AndroidManifest.xml",
+      "sha256": "571f2735faf5e857752ee057ac8ef63425576a721616c60b86ee5d4c0a2d682f",
+      "bytes": 13
+    },
+    {
+      "path": "example-plugin/src/main/java/com/egogame/example/plugin/ExamplePlugin.java",
+      "sha256": "578ac7624aafba9e10650770b17e7864415a04531396569a46c9485dea0f1fee",
+      "bytes": 1114
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172",
+      "bytes": 43764
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "5f705adaa45c1b4941763e0cb0fde5f2435c7ccbe2feafba9f3659a23a4f2ca5",
+      "bytes": 260
+    },
+    {
+      "path": "gradle/yd-plugin-library.gradle",
+      "sha256": "28d145953cc9985f0b0fbe6d2bb2f06d75c66a6c8cfab722a07d7cbff4d5ab2e",
+      "bytes": 1003
+    },
+    {
+      "path": "gradle.properties",
+      "sha256": "6fff1ea466ba2c930813dfeecccdf05031b37b54809bac9d2dc2295c54d926c5",
+      "bytes": 177
+    },
+    {
+      "path": "gradlew",
+      "sha256": "28d2c82e7f9cca986ee8da10ba939cf9260d682f73936b2b6d2545e35360ce7b",
+      "bytes": 8984
+    },
+    {
+      "path": "gradlew.bat",
+      "sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b",
+      "bytes": 2937
+    },
+    {
+      "path": "kugoumusic/build.gradle.kts",
+      "sha256": "c198e23109863a505204580291e079322c3d6bfbe3ce80dbff50acfcd316760a",
+      "bytes": 409
+    },
+    {
+      "path": "kugoumusic/LICENSE",
+      "sha256": "99ca28591e357c5d250eed946142897c11a697b9ff1cc030c5205bb3ff5f6976",
+      "bytes": 7819
+    },
+    {
+      "path": "kugoumusic/plugin.json",
+      "sha256": "994f534e3705ce70a4e02ac6cc80e9f08ea42fa67be6f6eb8e1dfad9a4b5df21",
+      "bytes": 1283
+    },
+    {
+      "path": "kugoumusic/proguard-rules.pro",
+      "sha256": "da66823ae313e6d683b3891d8800e3348a56efe4c44ec8f2f3891d8d1ade1235",
+      "bytes": 291
+    },
+    {
+      "path": "kugoumusic/src/main/AndroidManifest.xml",
+      "sha256": "daa0fb1f32ba7ea85a07ef6302ab3d58c3407d7fd2aa03ec132cb9e38e8d9849",
+      "bytes": 52
+    },
+    {
+      "path": "kugoumusic/src/main/java/com/kugoumusic/car/api/KuGouLoginApi.kt",
+      "sha256": "82c01cdc4b566ad0b73c232cd663491f27e397bc1f6ac93b66b524aca8b544d3",
+      "bytes": 17616
+    },
+    {
+      "path": "kugoumusic/src/main/java/com/kugoumusic/car/api/KuGouMusicApi.kt",
+      "sha256": "5568bd9f501aa5bb7b8b0b255fc130abfa3c67cfc11f165dc84f88f0034476f6",
+      "bytes": 26573
+    },
+    {
+      "path": "kugoumusic/src/main/java/com/kugoumusic/car/api/KuGouMusicClient.kt",
+      "sha256": "3822c13f23b3164d38b78639fc339fdc8fa0e03895174693503831a6c86c9993",
+      "bytes": 20194
+    },
+    {
+      "path": "kugoumusic/src/main/java/com/kugoumusic/car/api/KuGouRecentStore.kt",
+      "sha256": "bcfe0610d8fe85ed15328b5afeb299b8d098c92eb2c4b518c4b0ffc816be540a",
+      "bytes": 2203
+    },
+    {
+      "path": "kugoumusic/src/main/java/com/kugoumusic/car/api/LyricsParser.kt",
+      "sha256": "52186036ea52e566e5460a1a85f915549a4606b2f7f1885764cfaa3d2e0ce180",
+      "bytes": 3035
+    },
+    {
+      "path": "kugoumusic/src/main/java/com/kugoumusic/car/api/Models.kt",
+      "sha256": "771d0143ab055724bab7cfcdf37e4f8987b1b987d1f6f9fd2f6f6ba19507c207",
+      "bytes": 6196
+    },
+    {
+      "path": "kugoumusic/src/main/java/com/kugoumusic/car/data/MusicCache.kt",
+      "sha256": "399cd4efd521487ed9c32f81b2881942f2adc5b556d7374ac0006b087603e088",
+      "bytes": 13632
+    },
+    {
+      "path": "kugoumusic/src/main/java/com/kugoumusic/car/data/Stores.kt",
+      "sha256": "298c236ba52bb439df69b2c3d393816ce3c68503b0aa80a5ebe049a0e268ce10",
+      "bytes": 5172
+    },
+    {
+      "path": "kugoumusic/src/main/java/com/kugoumusic/car/player/PlaybackSnapshotStore.kt",
+      "sha256": "6357702263b19fa6136d9c51d165cef42118c00810f49ef856693b80c54f322b",
+      "bytes": 5456
+    },
+    {
+      "path": "kugoumusic/src/main/java/com/kugoumusic/car/player/PlayerHub.kt",
+      "sha256": "5c129db7d56fb289d0948da5309f6b9a528654acb81162097d87b5c7405ecf3a",
+      "bytes": 37820
+    },
+    {
+      "path": "kugoumusic/src/main/java/com/kugoumusic/car/plugin/KuGouMusicPlugin.kt",
+      "sha256": "be74a0409292f33ad976ad111085c313e39801878d53b24d0bb07b1e9e8a2141",
+      "bytes": 2271
+    },
+    {
+      "path": "kugoumusic/src/main/java/com/kugoumusic/car/ui/AppRoot.kt",
+      "sha256": "1cadfb14bf29056780601d3186e1b98b8283e26f786a062baa9615ad6b629993",
+      "bytes": 14731
+    },
+    {
+      "path": "kugoumusic/src/main/java/com/kugoumusic/car/ui/components/Components.kt",
+      "sha256": "4edab8cc1d7c02fad9e2a9921d5df988516c90e3e2edffba0b70268b9ba276f9",
+      "bytes": 12793
+    },
+    {
+      "path": "kugoumusic/src/main/java/com/kugoumusic/car/ui/Nav.kt",
+      "sha256": "9f78e9f947898a2e0bebd9691fb7be0734d4956ff1564dd20a8f130896d49328",
+      "bytes": 4038
+    },
+    {
+      "path": "kugoumusic/src/main/java/com/kugoumusic/car/ui/screens/AccountScreens.kt",
+      "sha256": "d91be824eec9dbb6df0da754c035d0e495093c9483a131b41adbc1a1397704f2",
+      "bytes": 15168
+    },
+    {
+      "path": "kugoumusic/src/main/java/com/kugoumusic/car/ui/screens/BrowseScreens.kt",
+      "sha256": "b7e2684c9d160891af33ca147ef56e047411fccc6ceec3d70dfe7987e7a60108",
+      "bytes": 6308
+    },
+    {
+      "path": "kugoumusic/src/main/java/com/kugoumusic/car/ui/screens/HomeScreen.kt",
+      "sha256": "e4b29e48522acab565ac8be134148172e0a2ff758498ccc1989b4325a4bd5198",
+      "bytes": 9038
+    },
+    {
+      "path": "kugoumusic/src/main/java/com/kugoumusic/car/ui/screens/NowPlayingScreen.kt",
+      "sha256": "272f06281b188a24de22af4cf7f33b10b72643a613531876c2fbc109be7a37bb",
+      "bytes": 4709
+    },
+    {
+      "path": "kugoumusic/src/main/java/com/kugoumusic/car/ui/screens/SearchScreen.kt",
+      "sha256": "cb85279fbbae8a47a288d2236f3acf24ceb608a6f38d7417fc46750fecd5c700",
+      "bytes": 10302
+    },
+    {
+      "path": "kugoumusic/src/main/java/com/kugoumusic/car/ui/screens/TrackListScreens.kt",
+      "sha256": "f4a280b3014aa39749c19b9edc4b5fa5452a87b0508ac405d2dee7b95ed7abc8",
+      "bytes": 22771
+    },
+    {
+      "path": "kugoumusic/src/main/java/com/kugoumusic/car/ui/theme/Theme.kt",
+      "sha256": "7c91bb27b3f979b40b2c0d4d996b105d6797c7a4b53486e40604b26cbe23d639",
+      "bytes": 4179
+    },
+    {
+      "path": "kugoumusic/src/main/res/drawable/ic_launcher_background.xml",
+      "sha256": "6854826831d17b0d4798b316890b143c7b83cfc8d85abbae7168dba2aeebedf9",
+      "bytes": 212
+    },
+    {
+      "path": "kugoumusic/src/main/res/drawable/ic_launcher_foreground.xml",
+      "sha256": "e790bd739cd96bc032271c893156f01a64215cf4a948017f6370794cf1da6ab6",
+      "bytes": 421
+    },
+    {
+      "path": "kugoumusic/src/main/res/drawable-nodpi/ic_kugoumusic_app.png",
+      "sha256": "508620370c24942760c2f495cf5c0cc1053d6bacacba1e6ce1fe863aa98b5ca5",
+      "bytes": 953210
+    },
+    {
+      "path": "kugoumusic/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "sha256": "9397411b5430cfc34a35b3f9a4974fe1f595a2ce53630b1b6c834e620f7bea26",
+      "bytes": 311
+    },
+    {
+      "path": "kugoumusic/src/main/res/values/strings.xml",
+      "sha256": "fa738135c30e080fe20062e14c18ef98a80493407fe0c1b57aa25313ca522141",
+      "bytes": 78
+    },
+    {
+      "path": "kugoumusic/src/main/res/values/themes.xml",
+      "sha256": "0de3f3f5cfc959e88d37a72c649dfb91f53e63179f25070aa52b5899b9f6e220",
+      "bytes": 359
+    },
+    {
+      "path": "kugoumusic/src/test/java/com/cloudmusic/car/api/LyricsParserTest.kt",
+      "sha256": "18bb6120f762c7ca6dd104def640a0d765a6b688694f1ef6bb7a23ff40e12d3e",
+      "bytes": 1629
+    },
+    {
+      "path": "kugoumusic/src/test/java/com/kugoumusic/car/api/ModelsTest.kt",
+      "sha256": "bfdb734bc9f333b8c8c0e9f2afc879cd2de3d0cbd64ef7f6ce2512510f4a9b39",
+      "bytes": 3166
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "bytes": 7652
+    },
+    {
+      "path": "music-plugin-common/build.gradle.kts",
+      "sha256": "679cc4d3f8bd0407b9dd493c4d1f8966bee633a2efa1f116556355bfda4539ed",
+      "bytes": 756
+    },
+    {
+      "path": "music-plugin-common/LICENSE",
+      "sha256": "99ca28591e357c5d250eed946142897c11a697b9ff1cc030c5205bb3ff5f6976",
+      "bytes": 7819
+    },
+    {
+      "path": "music-plugin-common/src/main/java/com/egogame/music/plugin/common/HostPlayerListener.kt",
+      "sha256": "6da23aac7aac273311f0a52ee4f66921e3cfc543cf36cd6310e38a839b8131c5",
+      "bytes": 3069
+    },
+    {
+      "path": "music-plugin-common/src/main/java/com/egogame/music/plugin/common/HostTransfers.kt",
+      "sha256": "69c420553c5144d4dc6707b182ff21b34f0879779c91ee868d3b48010c062967",
+      "bytes": 6452
+    },
+    {
+      "path": "music-plugin-common/src/main/java/com/egogame/music/plugin/common/PlaybackPermitPlayer.kt",
+      "sha256": "87bcedd3b051d1d86a01b648675bedcdd2b6d810c91923c71bd17ee13584f2a1",
+      "bytes": 3016
+    },
+    {
+      "path": "music-plugin-common/src/main/java/com/egogame/music/plugin/common/PluginUi.kt",
+      "sha256": "d92de32ce72049d982162ad3964c3c1e2e9825c14ee546bca069bff6c6069f93",
+      "bytes": 3858
+    },
+    {
+      "path": "music-plugin-common/src/main/java/com/egogame/music/plugin/common/StatefulMusicPlugin.kt",
+      "sha256": "abc50f897d0c954727cbdd6121f6dd59a1bbdba2df44361d9e20f2df8aec6c0c",
+      "bytes": 9596
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "bc93c3cbf336858b2c74a8eb531c36dfe3fdf5f402b2dcca00b7d0a32b411813",
+      "bytes": 502
+    },
+    {
+      "path": "plugin/plugin.json",
+      "sha256": "67e8107ec9808151b613701928ad8d993c992c480f1d89465e007bb0699854e9",
+      "bytes": 1277
+    },
+    {
+      "path": "qqmusic/build.gradle.kts",
+      "sha256": "669f1f4876a4534a1f8d771609c1787a1a283f7ce50657a85e0d0d2714428931",
+      "bytes": 403
+    },
+    {
+      "path": "qqmusic/LICENSE",
+      "sha256": "99ca28591e357c5d250eed946142897c11a697b9ff1cc030c5205bb3ff5f6976",
+      "bytes": 7819
+    },
+    {
+      "path": "qqmusic/plugin.json",
+      "sha256": "37b0f28641e33f719df34800fbe6b64bc19f776f2eb8353f20a96734f15db34f",
+      "bytes": 1271
+    },
+    {
+      "path": "qqmusic/proguard-rules.pro",
+      "sha256": "3920140156ca060c5095b576af41f6ff21659f7419ffeb9064801dd38bd33d8f",
+      "bytes": 285
+    },
+    {
+      "path": "qqmusic/src/main/AndroidManifest.xml",
+      "sha256": "daa0fb1f32ba7ea85a07ef6302ab3d58c3407d7fd2aa03ec132cb9e38e8d9849",
+      "bytes": 52
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/api/LyricsParser.kt",
+      "sha256": "6e04eb870e2c929f5d9e3b572a5570013e5761e937f1ca74d5ee41b492288ccd",
+      "bytes": 2664
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/api/Models.kt",
+      "sha256": "5369c6a77d2f5f48c439c40ad7782d9bee7aa8c15d97e209921d6aefee33ad96",
+      "bytes": 6565
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/api/QQAndroidIdentity.kt",
+      "sha256": "f373af4723047b438c541fd51e216684c4aa281c99c43d9cdde120a4dc4cc8cc",
+      "bytes": 12367
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/api/QQLoginApi.kt",
+      "sha256": "99be733636f1e1e7b0cdc56ba4669ff0984547bc9dd62c4cc7b54a7ee5f51910",
+      "bytes": 4454
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/api/QQMobileLogin.kt",
+      "sha256": "99fa0a92915e4670f79eded539171d98d93c4c4374010f9e97029f82765ce273",
+      "bytes": 12708
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/api/QQMusicApi.kt",
+      "sha256": "7b53495257497057cb8ecc21906e5c687f589c00a67b8e16cdacdaaf97e34fdc",
+      "bytes": 16848
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/api/QQMusicClient.kt",
+      "sha256": "284b8740b05b45774a33d616e2f038a6700fcf970068df4e67232bcccb95a8c3",
+      "bytes": 18277
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/api/QQRecentStore.kt",
+      "sha256": "407b65f4b328f6f02c3fd03d21a871579183c74d4cd3d38e607107fab113fd64",
+      "bytes": 2194
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/data/MusicCache.kt",
+      "sha256": "5ae6cacb42593b9d589cb3f4270e405e5c82a55b60f30dbd9d1fb4dae4329565",
+      "bytes": 13599
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/data/Stores.kt",
+      "sha256": "5a50046043a8280536d9061851b744f6fc81ccadb8c29cf6c8e9176513bc1cd3",
+      "bytes": 5109
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/player/PlaybackSnapshotStore.kt",
+      "sha256": "d95fc2b0b0e32ea4e05ac01569b6da6f18a9e834348b03de0cbe174260538b33",
+      "bytes": 5441
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/player/PlayerHub.kt",
+      "sha256": "0798cab3d5cdfd157c8a32fd802bd3697fa0c1fb0734eadd2007327720e45f3f",
+      "bytes": 37311
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/plugin/CloudMusicPlugin.kt",
+      "sha256": "82e778278e20dc4249ba9ab137d67ca00d003ea23458d359f579de297ae28b74",
+      "bytes": 2130
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/ui/AppRoot.kt",
+      "sha256": "ec3a69e8d915fd0728695fafd02854a07eeaff0f8ea240cb513433e938671044",
+      "bytes": 14671
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/ui/components/Components.kt",
+      "sha256": "6821c2932d8e1a78e0ff9eb61ba5c6a2ad522003ef0c7215cd80d4871bff331d",
+      "bytes": 12655
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/ui/Nav.kt",
+      "sha256": "a4e80afff5329b8c0e606d57a61259676e4be2381297825edf62d2f326a62d10",
+      "bytes": 4035
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/ui/screens/AccountScreens.kt",
+      "sha256": "f5875c4847afd0d229cf21d89734d06a163c9660409e4cf99b1ce1c99ba1a10b",
+      "bytes": 14875
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/ui/screens/BrowseScreens.kt",
+      "sha256": "1c4674396e5a3561ee981b91d31eb6139ea02d3f172ffd67dcba25cbb36cc92e",
+      "bytes": 6257
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/ui/screens/HomeScreen.kt",
+      "sha256": "e5adc392f3b28fddf1abb7c8a8ab0f6696c58846e912e96d7967f7b5fbb7043e",
+      "bytes": 8978
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/ui/screens/NowPlayingScreen.kt",
+      "sha256": "f6825cc20d0edc0eb60688d310f2f80953e2fc1c7d24d8a6302154f55fe5c034",
+      "bytes": 4685
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/ui/screens/SearchScreen.kt",
+      "sha256": "6ad7c742a286ba9d7598674e167742a0d1fb1f2d8573c6abf34dfb78bcfb6ddc",
+      "bytes": 10239
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/ui/screens/TrackListScreens.kt",
+      "sha256": "c42628ae69aa5332c4a31e9fab443565a33fdd8be59e6cf39c8c431a2bc150f1",
+      "bytes": 22553
+    },
+    {
+      "path": "qqmusic/src/main/java/com/qqmusic/car/ui/theme/Theme.kt",
+      "sha256": "e1963622eb68e192e3ee790e1401f1dbde90000129eeb8b34d0558fdc4659310",
+      "bytes": 4173
+    },
+    {
+      "path": "qqmusic/src/main/res/drawable/ic_launcher_background.xml",
+      "sha256": "6854826831d17b0d4798b316890b143c7b83cfc8d85abbae7168dba2aeebedf9",
+      "bytes": 212
+    },
+    {
+      "path": "qqmusic/src/main/res/drawable/ic_launcher_foreground.xml",
+      "sha256": "e790bd739cd96bc032271c893156f01a64215cf4a948017f6370794cf1da6ab6",
+      "bytes": 421
+    },
+    {
+      "path": "qqmusic/src/main/res/drawable-nodpi/ic_qqmusic_app.png",
+      "sha256": "bc45f0e047b04dc80a0a38e1879ecb61432408615934ec3d91b22ac84d1b4932",
+      "bytes": 1113047
+    },
+    {
+      "path": "qqmusic/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "sha256": "d3d2b5e85064c5aa59bd9d137bc66ee5d97c49b330292399a3979aa2ebd3311a",
+      "bytes": 308
+    },
+    {
+      "path": "qqmusic/src/main/res/values/strings.xml",
+      "sha256": "52d3b03577c83b2f165550da99803007550a6d97f91aca8b02e09e39b55ef834",
+      "bytes": 75
+    },
+    {
+      "path": "qqmusic/src/main/res/values/themes.xml",
+      "sha256": "71507e418ba205cabccb8e1c18c397036154935dfd9dd2cbb4acac77b8945964",
+      "bytes": 356
+    },
+    {
+      "path": "qqmusic/src/test/java/com/cloudmusic/car/api/LyricsParserTest.kt",
+      "sha256": "da52746c69796f0e65f0fbee17c51490a8219c8a05c5d90afc566a17fd0e5484",
+      "bytes": 907
+    },
+    {
+      "path": "qqmusic/src/test/java/com/qqmusic/car/api/ModelsTest.kt",
+      "sha256": "deee74f43bc6e6c77a3a221fe542ffe729bdb79501b37f47ff08bdc54394f56a",
+      "bytes": 6195
+    },
+    {
+      "path": "README.md",
+      "sha256": "e868e86d8fcd882541bf934e2e1a26fb9959fc3f22a4b3cbb54070c36c2d3583",
+      "bytes": 9251
+    },
+    {
+      "path": "settings.gradle.kts",
+      "sha256": "f3e174e934afdeda388ed2c0aacbe047765c9248d4e6e688638f6193ad2fc9e8",
+      "bytes": 596
+    },
+    {
+      "path": "shared/nowplaying/build.gradle.kts",
+      "sha256": "8585fe9be8025d8a0005e22e04465e78c1915afd8ef7855dc7ed564840fe3dd9",
+      "bytes": 819
+    },
+    {
+      "path": "shared/nowplaying/LICENSE",
+      "sha256": "99ca28591e357c5d250eed946142897c11a697b9ff1cc030c5205bb3ff5f6976",
+      "bytes": 7819
+    },
+    {
+      "path": "shared/nowplaying/src/main/java/com/paopao/music/nowplaying/NowPlayingParts.kt",
+      "sha256": "363c81079f6769f5f9a3bb7169fe74892fd392b0f7befb59c60559d71b3c8b3d",
+      "bytes": 32377
+    },
+    {
+      "path": "shared/nowplaying/src/main/java/com/paopao/music/nowplaying/NowPlayingScreen.kt",
+      "sha256": "7fd3c5b51a69e0e462458dbb05b430ab69cacbc97c5da4e8f595f7edc4cec8bd",
+      "bytes": 26521
+    },
+    {
+      "path": "shared/nowplaying/src/main/java/com/paopao/music/nowplaying/NowPlayingSource.kt",
+      "sha256": "86f2de6d5ae775dffda63ee962fffba5813b762e0d78fcbef0047f5381d4d642",
+      "bytes": 3938
+    },
+    {
+      "path": "shared/nowplaying/src/main/java/com/paopao/music/nowplaying/PlaybackClock.kt",
+      "sha256": "e4062db6a48a940dc5086301b43c8834989690d505b63ef54fa31587e2270390",
+      "bytes": 3570
+    },
+    {
+      "path": "shared/nowplaying/src/main/java/com/paopao/music/nowplaying/WordLyricsParser.kt",
+      "sha256": "420ccb2ac26bf4648b5922364ba7f308efd0ea48250d9d088fe8566280fad2f6",
+      "bytes": 7637
+    },
+    {
+      "path": "shared/nowplaying/src/test/java/com/paopao/music/nowplaying/WordLyricsParserTest.kt",
+      "sha256": "1f8df2fdf06add553e66ae57a100b102d635ee7f260ba86a63436682db0a1a7a",
+      "bytes": 4891
+    },
+    {
+      "path": "tools/check-host-abi.py",
+      "sha256": "b6b213304aef0b8e14dd4630940807ae0cce87291f75be21827bac85e1fb9c98",
+      "bytes": 6377
+    },
+    {
+      "path": "tools/check-public-source.py",
+      "sha256": "294d126b89b58e4a0afd29de176a165c2c2be9300ca97ef23d86018d279d7f4c",
+      "bytes": 5493
+    },
+    {
+      "path": "tools/create-example-icon.py",
+      "sha256": "98fd07ea0c204ea268ddc19c04f9b78f5879abc7ef27b0d57e24d5b93ffe86c4",
+      "bytes": 855
+    },
+    {
+      "path": "tools/generate-signing.py",
+      "sha256": "529f0c4f63e88616b927034d3a451847817687bb22d8ba99687aa6249f87d6e9",
+      "bytes": 2385
+    },
+    {
+      "path": "tools/LICENSE",
+      "sha256": "99ca28591e357c5d250eed946142897c11a697b9ff1cc030c5205bb3ff5f6976",
+      "bytes": 7819
+    },
+    {
+      "path": "tools/package-kugoumusic-plugin.sh",
+      "sha256": "feb77ca7bb8268dfc9c7d3205f115e68429f755f2afcc2de491b394f5d3ed114",
+      "bytes": 149
+    },
+    {
+      "path": "tools/package-plugin.sh",
+      "sha256": "2422375eb53f5a62407a83ac5edf5681f6a04b3cf9793e38363993d35e48dd4a",
+      "bytes": 142
+    },
+    {
+      "path": "tools/package-qqmusic-plugin.sh",
+      "sha256": "80f2501f4f3161bf6d12e9b396da75e5d6e1db4aca11c8b072d5dc798a96dbaa",
+      "bytes": 146
+    },
+    {
+      "path": "tools/package-source.py",
+      "sha256": "bf2f21da72e1d0197d5033bf7eaa66ab3173a80fba5bbb281b59462d5a59ca2b",
+      "bytes": 1794
+    },
+    {
+      "path": "tools/packaging/class_abi.py",
+      "sha256": "4b52610e1ceb522d91a0696be2c451e5c6ecd67070ea45174465ac5cfe916c38",
+      "bytes": 5242
+    },
+    {
+      "path": "tools/packaging/dex_abi.py",
+      "sha256": "325a980431a5c0900a150f6acd4bd2573980a65262270d9c9add1bcda555422d",
+      "bytes": 3473
+    },
+    {
+      "path": "tools/packaging/export_host_abi.py",
+      "sha256": "736a5734ed07f7c7173106d11d71c362a531326bb6ab490464280fe8e2845532",
+      "bytes": 3842
+    },
+    {
+      "path": "tools/packaging/package_plugin.py",
+      "sha256": "9a1c65b0b590deefd7685d554c01fbe1a3cb9eef7dc34dd9423e40c0a0ad2bbc",
+      "bytes": 12115
+    },
+    {
+      "path": "tools/packaging/prepare_public_abi.py",
+      "sha256": "90fe86c7307d4d0d35f1ba5b679ee128cfd03093c48cbbf4745c923cd034f428",
+      "bytes": 2058
+    },
+    {
+      "path": "tools/packaging/requirements-abi.txt",
+      "sha256": "47ca61e4fcf45578164296e183aaf634dffc470d9ea097c56df245fc09e40303",
+      "bytes": 18
+    },
+    {
+      "path": "tools/packaging/runtime_contract.py",
+      "sha256": "8cfcb9b153b4e458bf87f627325b15297c9fe464776b83e330b6534877d65545",
+      "bytes": 576
+    },
+    {
+      "path": "tools/packaging/test_abi.py",
+      "sha256": "3343856d0f30511099743cf552b406d159890553fc8228ca67424ba7f3c39880",
+      "bytes": 2777
+    },
+    {
+      "path": "tools/packaging/test_playback_abi.py",
+      "sha256": "9f7e4f662ac12ba6fd02d56db1452cce220f55afc7a58b8b4461ca9f22ae17f6",
+      "bytes": 1329
+    },
+    {
+      "path": "tools/packaging/VerifySignedJar.java",
+      "sha256": "e5d2353ef81024f338f7571db13db3b860e3022bf774caa8373c8d455403b9ad",
+      "bytes": 2102
+    },
+    {
+      "path": "tools/public_source.py",
+      "sha256": "06d6b14e5a11f8ed979789067130595ea79767efcb35bbcc04e2205d7a7783c0",
+      "bytes": 2241
+    },
+    {
+      "path": "tools/verify-source-tree.py",
+      "sha256": "f7e6327490520ac910e6464aa845e0f1937c995b776f80f92bda946cc07684c2",
+      "bytes": 1934
+    },
+    {
+      "path": "yd-plugin-api/build.gradle",
+      "sha256": "89a3e1d514aa38b4f2f9f1b2843c72973b983d8186624a63012c165b2a92f958",
+      "bytes": 126
+    },
+    {
+      "path": "yd-plugin-api/consumer-rules.pro",
+      "sha256": "c349b46fab33feb15ff1c85d00804b5cfdc06858cdacc18e4e7602119034743e",
+      "bytes": 182
+    },
+    {
+      "path": "yd-plugin-api/LICENSE",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "bytes": 7652
+    },
+    {
+      "path": "yd-plugin-api/src/main/AndroidManifest.xml",
+      "sha256": "571f2735faf5e857752ee057ac8ef63425576a721616c60b86ee5d4c0a2d682f",
+      "bytes": 13
+    },
+    {
+      "path": "yd-plugin-api/src/main/java/com/egogame/plugin/api/PluginEnvironment.java",
+      "sha256": "67a37243bdb391b8582ba931dc2c73abe8cfe060edbb3b7bcd64addc3c2187ad",
+      "bytes": 397
+    },
+    {
+      "path": "yd-plugin-api/src/main/java/com/egogame/plugin/api/PluginHostState.java",
+      "sha256": "3142ce98f149819dd1ace796fe3983d02405a3d55c5b6363276d541aa8725a01",
+      "bytes": 642
+    },
+    {
+      "path": "yd-plugin-api/src/main/java/com/egogame/plugin/api/PluginLogger.java",
+      "sha256": "c74313cd360b8ccddd2369d9ae377b66b06919533a3c374be55509f89ec2f973",
+      "bytes": 215
+    },
+    {
+      "path": "yd-plugin-api/src/main/java/com/egogame/plugin/api/PluginResources.java",
+      "sha256": "0410601907c78aabe4f96654af4c75753ef55d04f8a03c9726c18fe7927bea7a",
+      "bytes": 356
+    },
+    {
+      "path": "yd-plugin-api/src/main/java/com/egogame/plugin/api/PluginStorage.java",
+      "sha256": "531b56d204048bba4a7add2e37f7e9d5ecafddb60e156e8c671527b7c1b8b604",
+      "bytes": 414
+    },
+    {
+      "path": "yd-plugin-api/src/main/java/com/egogame/plugin/api/PluginTransfers.java",
+      "sha256": "b75e1e66999d6c455db4a42c20c0088473bc841156721f46b07ba5da8f5e8493",
+      "bytes": 2922
+    },
+    {
+      "path": "yd-plugin-api/src/main/java/com/egogame/plugin/api/UiPlugin.java",
+      "sha256": "f438c915d864d41e3cde3fa225d79f78683bb75cbd4b059f0fdb33880c4e30b4",
+      "bytes": 477
+    },
+    {
+      "path": "yd-plugin-api/src/main/java/com/egogame/plugin/api/YdPlugin.java",
+      "sha256": "9d6df628efdc975fc7df77a65cfe5028855df2c98ec56d240a449bd85d496232",
+      "bytes": 280
+    },
+    {
+      "path": "yd-plugin-music-api/build.gradle",
+      "sha256": "0de154bb139b040452e3b5207a1a24a6e480ebf61ec1ef64f016f0cbe42457ad",
+      "bytes": 179
+    },
+    {
+      "path": "yd-plugin-music-api/consumer-rules.pro",
+      "sha256": "74005f85fa6beb3bbf5602f0c7c8eabca1af6ca34109543f96a5f32685962825",
+      "bytes": 106
+    },
+    {
+      "path": "yd-plugin-music-api/LICENSE",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "bytes": 7652
+    },
+    {
+      "path": "yd-plugin-music-api/src/main/AndroidManifest.xml",
+      "sha256": "571f2735faf5e857752ee057ac8ef63425576a721616c60b86ee5d4c0a2d682f",
+      "bytes": 13
+    },
+    {
+      "path": "yd-plugin-music-api/src/main/java/com/egogame/plugin/music/api/MusicHostServices.java",
+      "sha256": "fa06466cb0e62793761b991be196eb710e39da3f9273f3aa9d8ba025dd5655dd",
+      "bytes": 758
+    },
+    {
+      "path": "yd-plugin-music-api/src/main/java/com/egogame/plugin/music/api/MusicPlugin.java",
+      "sha256": "771b459f7c4176789c25eee6fe8d0b10749201646021e482d16352e9917ae3d4",
+      "bytes": 215
+    },
+    {
+      "path": "yd-plugin-runtime/build.gradle",
+      "sha256": "352acf0fab773805b1dab9539bd57e2a5445325c4367c576e7d1e9b1879fa103",
+      "bytes": 1245
+    },
+    {
+      "path": "yd-plugin-runtime/consumer-rules.pro",
+      "sha256": "a75300690ebbfef142e0372c6610e6c160a4c78edf2e096efb383b5253e9da03",
+      "bytes": 124
+    },
+    {
+      "path": "yd-plugin-runtime/LICENSE",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "bytes": 7652
+    },
+    {
+      "path": "yd-plugin-runtime/src/main/AndroidManifest.xml",
+      "sha256": "571f2735faf5e857752ee057ac8ef63425576a721616c60b86ee5d4c0a2d682f",
+      "bytes": 13
+    },
+    {
+      "path": "yd-plugin-runtime/src/main/java/com/egogame/plugin/runtime/AssetVehicleModelProvider.java",
+      "sha256": "01079b510118f8eb3ab556c21b9973a705417d93f35ce1af448fc70cf6aa8876",
+      "bytes": 1860
+    },
+    {
+      "path": "yd-plugin-runtime/src/main/java/com/egogame/plugin/runtime/PluginCodeLoader.java",
+      "sha256": "e581be81ba0d2f5a8484a952e1c07ae63e42a86aff9df37b3faa5f8c0fd3a690",
+      "bytes": 3947
+    },
+    {
+      "path": "yd-plugin-runtime/src/main/java/com/egogame/plugin/runtime/PluginCompatibility.java",
+      "sha256": "091e7bac98167f2421fac3556d8744f34fa1cac015519b41b8d9af5e1d3c5b92",
+      "bytes": 2632
+    },
+    {
+      "path": "yd-plugin-runtime/src/main/java/com/egogame/plugin/runtime/PluginException.java",
+      "sha256": "c4504b80da3931218be3b0624e36bb428fb30844d618bce91b924fc0211c691b",
+      "bytes": 379
+    },
+    {
+      "path": "yd-plugin-runtime/src/main/java/com/egogame/plugin/runtime/PluginLease.java",
+      "sha256": "9b3e9fb852e8fbf247b796cf08f4b0dd2c2d1621beb8922cdf857fcbb894ee97",
+      "bytes": 1817
+    },
+    {
+      "path": "yd-plugin-runtime/src/main/java/com/egogame/plugin/runtime/PluginManager.java",
+      "sha256": "58a0901f789ab4ed4e5e1272cb052bd2d318d723630b2debcb67869111d68f0c",
+      "bytes": 22260
+    },
+    {
+      "path": "yd-plugin-runtime/src/main/java/com/egogame/plugin/runtime/PluginManifest.java",
+      "sha256": "5d7c992c994f02ef63d5987da9f45da71d846cf10afc8088d461fa33211fb70c",
+      "bytes": 5049
+    },
+    {
+      "path": "yd-plugin-runtime/src/main/java/com/egogame/plugin/runtime/PluginPackageVerifier.java",
+      "sha256": "74297680865d8b5f2ee2eaa859a23c0da228d6ce4b87dc2d35d3529e7e6d2212",
+      "bytes": 12156
+    },
+    {
+      "path": "yd-plugin-runtime/src/main/java/com/egogame/plugin/runtime/PluginPaths.java",
+      "sha256": "9f6967409ea34a045d6a0513640f5076626fe4a0dc60642e85bc3898e8562397",
+      "bytes": 2149
+    },
+    {
+      "path": "yd-plugin-runtime/src/main/java/com/egogame/plugin/runtime/PluginRecord.java",
+      "sha256": "5990339b1bf29f879af6257ec1fd3541cd2cdf90fbd003d5e06ac07ed813dbed",
+      "bytes": 1724
+    },
+    {
+      "path": "yd-plugin-runtime/src/main/java/com/egogame/plugin/runtime/PluginRuntimeBaseline.java",
+      "sha256": "371229888f20ff67313b4f04df1b96d7647bf89a37cffd90a27c51db487d0a16",
+      "bytes": 1328
+    },
+    {
+      "path": "yd-plugin-runtime/src/main/java/com/egogame/plugin/runtime/PluginTrustStore.java",
+      "sha256": "332189c7bca1651bc0dc2c46239e6eaacfbb533aa6881caf4d8015b0e02f83fd",
+      "bytes": 2906
+    },
+    {
+      "path": "yd-plugin-runtime/src/main/java/com/egogame/plugin/runtime/VehicleModelPackageValidator.java",
+      "sha256": "c9a63ed54ed2a422740157379db019a65eb01951b732f7adb1ec7d46b7b3faf4",
+      "bytes": 18125
+    },
+    {
+      "path": "yd-plugin-runtime/src/test/java/com/egogame/plugin/runtime/PluginRuntimeTest.java",
+      "sha256": "6e4e5cfeff757ddddba042c1a01b818bdd3fa31f37e0f4c3cf0afe7fdc8dde53",
+      "bytes": 22871
+    },
+    {
+      "path": "yd-plugin-runtime/src/test/java/com/egogame/plugin/runtime/SignedPluginFixture.java",
+      "sha256": "2e8d1780b40f9cabc25362810fbb302326244b79df54c88c41fc6c8ac7ffd1c7",
+      "bytes": 7787
+    },
+    {
+      "path": "yd-plugin-ui/build.gradle",
+      "sha256": "0a189b87f3f901bf2ddef1b296f50847ae19d18a317b6c8dd9b7c64b5e7e5ebd",
+      "bytes": 466
+    },
+    {
+      "path": "yd-plugin-ui/consumer-rules.pro",
+      "sha256": "1dd6b3ce85feebeb3f1190ea675832f4387624a05e0de90077111f39ed316e23",
+      "bytes": 92
+    },
+    {
+      "path": "yd-plugin-ui/LICENSE",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "bytes": 7652
+    },
+    {
+      "path": "yd-plugin-ui/src/main/AndroidManifest.xml",
+      "sha256": "571f2735faf5e857752ee057ac8ef63425576a721616c60b86ee5d4c0a2d682f",
+      "bytes": 13
+    },
+    {
+      "path": "yd-plugin-ui/src/main/java/com/egogame/plugin/ui/PluginComposeUiServices.kt",
+      "sha256": "c8f6159c48f68e44ead601c92786e2de794737a711dd9185a1a6ca81dee28f77",
+      "bytes": 461
+    },
+    {
+      "path": "yd-plugin-ui/src/main/java/com/egogame/plugin/ui/PluginUiServices.java",
+      "sha256": "e9cda71a86e41c1fadd72b480e6672a4f4a8142522b0c7941b8fed72778205cf",
+      "bytes": 565
+    },
+    {
+      "path": "yd-plugin-vehicle-model-api/build.gradle",
+      "sha256": "3490305edff7284416dd38b44722330b6bd046962882daa28a6aba4eeb4ee2c0",
+      "bytes": 186
+    },
+    {
+      "path": "yd-plugin-vehicle-model-api/consumer-rules.pro",
+      "sha256": "8cdb651b69f3fa22078d9e1fbae97bff5ec2ad60062935e19e1eefdf20480df1",
+      "bytes": 120
+    },
+    {
+      "path": "yd-plugin-vehicle-model-api/LICENSE",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "bytes": 7652
+    },
+    {
+      "path": "yd-plugin-vehicle-model-api/src/main/AndroidManifest.xml",
+      "sha256": "571f2735faf5e857752ee057ac8ef63425576a721616c60b86ee5d4c0a2d682f",
+      "bytes": 13
+    },
+    {
+      "path": "yd-plugin-vehicle-model-api/src/main/java/com/egogame/plugin/vehiclemodel/api/VehicleModelPlugin.java",
+      "sha256": "b5da38ffb76e2e0bf81dc7265858a7511668ecc2284bec9e69f483bbb0381758",
+      "bytes": 166
+    },
+    {
+      "path": "yd-plugin-vehicle-model-api/src/main/java/com/egogame/plugin/vehiclemodel/api/VehicleModelProvider.java",
+      "sha256": "b4ebb2f5140bc7bec66e3e57e4a58ee106968dd5bc9677a6d11f5a137ad9cce1",
+      "bytes": 162
+    },
+    {
+      "path": "yd-plugin-vehicle-model-api/src/main/java/com/egogame/plugin/vehiclemodel/api/VehicleReadOnlyState.java",
+      "sha256": "ba4d5613881ddc3e160cabe93a064aa0ed9e7d5ab1288dcd7ed4228b31e570c8",
+      "bytes": 518
+    }
+  ],
+  "errors": []
+}

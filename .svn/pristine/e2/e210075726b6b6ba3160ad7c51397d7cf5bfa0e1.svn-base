@@ -1,0 +1,42 @@
+# 鱼蛋插件 SDK 与音乐插件
+
+这里是五个公共 SDK 模块、独立示例和三个音乐插件的唯一后续维护来源。旧 `cloudmusic-car` 保留迁移前源码供核对，其 Gradle 入口已转发本工程，不应继续修改旧实现。桌面私有源码、私有车模插件及生产账号配置不属于本工程。
+
+## 构建
+
+使用 JDK 17、Android SDK 34、Gradle 8.14.5、AGP 8.7.3、Kotlin 1.8.22。通过 `ANDROID_HOME` 或本地忽略的 `local.properties` 配置 SDK。
+
+```powershell
+python tools/generate-signing.py
+.\gradlew.bat publishSdk
+.\gradlew.bat packageMusicPlugins :example-plugin:packageReleasePlugin
+```
+
+默认生成开发者自签证书，私钥、密码和配置保存在忽略目录 `.local/signing/`，工具拒绝覆盖已有私钥。官方证书别名为 `egogame`，公钥见 `docs/official-plugin-certificate.der`；源码不包含官方私钥或密码。可使用 `-PydSigningProperties=<配置文件>` 指定其他密钥；不要提交本地签名目录。
+
+SDK 发布到 `build/yd-plugin-sdk/maven`，坐标为 `com.egogame.plugin:<模块名>:1.0.0`。五个模块为 `yd-plugin-api`、`yd-plugin-runtime`、`yd-plugin-ui`、`yd-plugin-music-api`、`yd-plugin-vehicle-model-api`。宿主可以映射对应模块目录，也可使用上述版本化 Maven 仓库；两种方式都不需要复制源码。
+
+三个音乐包位于 `build/music-plugins/`。每个包都包含 `music-plugin-common` 和 `music-nowplaying` 的实现，宿主不得静态引入这两个 LGPL 音乐模块。SDK、Kotlin、Compose、Media3 等共享依赖由宿主唯一提供。目录 `example-plugin` 仅依赖公开 SDK，不依赖音乐或桌面私有源码，提供原生页面并使用同一签名及打包检查链路。
+
+运行 `python tools/package-source.py` 生成 `build/distribution/YudanPlugin-source.zip` 与完整文件哈希清单。分发音乐插件时须一并提供该对应源码包，插件内附 LGPL、GPL、归属和源码归档说明；归档工具排除私钥、密码、本地配置、缓存与构建产物。源码归档可以在其他目录独立重建。
+
+## ABI 与运行库
+
+公开的最终成员基线在 `docs/runtime/host-abi.json`，记录源宿主制品 SHA-256、共享类、继承、方法、字段和资源核对结果。它只适用于其记录的运行库版本与公共成员，不能用版本字符串替代真实成员检查；当前基线来源于迁移前已核对的宿主制品，迁移后新宿主还须重新导出并复核。`-PydHostAbi=<文件>` 可替换基线。默认构建不读取宿主源码或宿主构建目录。
+
+重新生成时先安装 `tools/packaging/requirements-abi.txt`，用 `tools/packaging/export_host_abi.py` 从实际最终 APK 或 DEX 导出，再用 `prepare_public_abi.py` 提取公开运行库。人工元数据中的资源归属必须已有实际资源表证据，工具不会自动假定资源正确：
+
+```powershell
+python tools/packaging/export_host_abi.py --metadata build/host-abi/metadata.json --output build/host-abi/full.json build/host-abi/final-host.apk
+python tools/packaging/prepare_public_abi.py --input build/host-abi/full.json --output docs/runtime/host-abi.json
+```
+
+打包先核对真实 class 成员，再由 D8 生成全部 DEX，并对最终 DEX 的接口实现与宿主方法引用再次核对，最后进行 JAR 签名及全条目验签。业务、音乐公共实现不得依赖宿主中旧的音乐类；检查器排除这些旧类，避免误把未打入插件的实现当作宿主可用类。清单中的 `runtimeRequirements` 不再声明两个音乐实现。
+
+第三方运行库基线：Kotlin 1.8.22、Compose 1.6.1、Compose 编译器 1.4.8、Material3 1.2.0、Activity 1.7.0、Lifecycle 2.6.2、Media3 1.2.1、AndroidX Media 1.6.0、Coil 2.5.0、协程 1.7.3、OkHttp 4.9.3、Core 1.12.0、Palette 1.0.0、ZXing 3.4.1。三业务与 D8 最低 API 28；SDK 最低 API 22。
+
+## 许可与替换
+
+五个 `yd-plugin-*` 通用模块及 `example-plugin` 使用 Apache-2.0。三个音乐业务、`music-plugin-common` 和 `shared/nowplaying` 保留 LGPL-3.0；GPL-3.0 正文是 LGPL 引用的组成部分，不将音乐模块重新许可为 Apache。构建工具与模块归属详见 [许可归属](docs/许可归属.md)。
+
+修改音乐插件后须保留原有版权、提供对应源码和修改说明。可以自行构建并签名，通过桌面的插件管理导入；首次使用自签证书须主动确认信任，替换已有发布者还须确认换证。确认后的替换包仍按相同 SDK 与媒体生命周期运行。这里不包含加密、在线解密或禁止用户替换的机制。

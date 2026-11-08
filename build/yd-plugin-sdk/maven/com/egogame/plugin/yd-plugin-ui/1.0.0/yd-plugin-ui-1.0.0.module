@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.egogame.plugin",
+    "module": "yd-plugin-ui",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.egogame.plugin",
+          "module": "yd-plugin-api",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "yd-plugin-ui-1.0.0.aar",
+          "url": "yd-plugin-ui-1.0.0.aar",
+          "size": 3273,
+          "sha512": "031929731836464c001bffd98e953302310ff306c67d954efb25d65ebfcb1f50553d31ec92d4e5c2d91ea5d5715f3bc715c45181082e549302782f608cfe546c",
+          "sha256": "d38dab8f49cd5e1ec233cac7a99a318d0858e2dbeb2548f8c151bc77cd9cbc01",
+          "sha1": "e09421887ded8938913de8c94bdce1b7869db1b2",
+          "md5": "14697af2e728a67e14240a818f27f2a2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.egogame.plugin",
+          "module": "yd-plugin-api",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "yd-plugin-ui-1.0.0.aar",
+          "url": "yd-plugin-ui-1.0.0.aar",
+          "size": 3273,
+          "sha512": "031929731836464c001bffd98e953302310ff306c67d954efb25d65ebfcb1f50553d31ec92d4e5c2d91ea5d5715f3bc715c45181082e549302782f608cfe546c",
+          "sha256": "d38dab8f49cd5e1ec233cac7a99a318d0858e2dbeb2548f8c151bc77cd9cbc01",
+          "sha1": "e09421887ded8938913de8c94bdce1b7869db1b2",
+          "md5": "14697af2e728a67e14240a818f27f2a2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "yd-plugin-ui-1.0.0-sources.jar",
+          "url": "yd-plugin-ui-1.0.0-sources.jar",
+          "size": 1764,
+          "sha512": "a65cfe7173f96049854364091c44a7498dc1f4394d172910f3782d424c4a892c505824f22f2367b7c8130df825ec9444313802ce6fd2060bf08fd896fb524463",
+          "sha256": "baed92c3dc043bf502d59f4ce12baded4dc49ed5c8fde6bb44db430f4f4054fd",
+          "sha1": "ba64aca66b3b9035a2ed9a5c59dbadae21e7f137",
+          "md5": "1542a4cdc3058940b73fa2e09e3dd2a4"
+        }
+      ]
+    }
+  ]
+}

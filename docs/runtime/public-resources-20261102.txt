@@ -1,0 +1,183 @@
+当前公共字号资源的实际宿主资源表摘录。
+完整资源转储 SHA-256：de606d29f20be18e387c6224e7affe208637a950e954532b31e1e2d1b039b716。
+仅保留 89 个插件公共字号及其值，宿主其他资源不对外分发。
+源 APK 与资源表哈希及验证范围见 host-abi.json；本摘录不表示其他制品已经验收。
+
+    resource 0x7f070100 dimen/hmi_music_plugin_text_10
+      () 10.000000sp
+    resource 0x7f070101 dimen/hmi_music_plugin_text_11
+      () 11.000000sp
+    resource 0x7f070102 dimen/hmi_music_plugin_text_12
+      () 12.000000sp
+    resource 0x7f070103 dimen/hmi_music_plugin_text_13
+      () 13.000000sp
+    resource 0x7f070104 dimen/hmi_music_plugin_text_14
+      () 14.000000sp
+    resource 0x7f070105 dimen/hmi_music_plugin_text_15
+      () 15.000000sp
+    resource 0x7f070106 dimen/hmi_music_plugin_text_16
+      () 16.000000sp
+    resource 0x7f070107 dimen/hmi_music_plugin_text_17
+      () 17.000000sp
+    resource 0x7f070108 dimen/hmi_music_plugin_text_18
+      () 18.000000sp
+    resource 0x7f070109 dimen/hmi_music_plugin_text_19
+      () 19.000000sp
+    resource 0x7f07010a dimen/hmi_music_plugin_text_20
+      () 20.000000sp
+    resource 0x7f07010b dimen/hmi_music_plugin_text_21
+      () 21.000000sp
+    resource 0x7f07010c dimen/hmi_music_plugin_text_22
+      () 22.000000sp
+    resource 0x7f07010d dimen/hmi_music_plugin_text_23
+      () 23.000000sp
+    resource 0x7f07010e dimen/hmi_music_plugin_text_24
+      () 24.000000sp
+    resource 0x7f07010f dimen/hmi_music_plugin_text_25
+      () 25.000000sp
+    resource 0x7f070110 dimen/hmi_music_plugin_text_26
+      () 26.000000sp
+    resource 0x7f070111 dimen/hmi_music_plugin_text_27
+      () 27.000000sp
+    resource 0x7f070112 dimen/hmi_music_plugin_text_28
+      () 28.000000sp
+    resource 0x7f070113 dimen/hmi_music_plugin_text_29
+      () 29.000000sp
+    resource 0x7f070114 dimen/hmi_music_plugin_text_30
+      () 30.000000sp
+    resource 0x7f070115 dimen/hmi_music_plugin_text_31
+      () 31.000000sp
+    resource 0x7f070116 dimen/hmi_music_plugin_text_32
+      () 32.000000sp
+    resource 0x7f070117 dimen/hmi_music_plugin_text_33
+      () 33.000000sp
+    resource 0x7f070118 dimen/hmi_music_plugin_text_34
+      () 34.000000sp
+    resource 0x7f070119 dimen/hmi_music_plugin_text_35
+      () 35.000000sp
+    resource 0x7f07011a dimen/hmi_music_plugin_text_36
+      () 36.000000sp
+    resource 0x7f07011b dimen/hmi_music_plugin_text_37
+      () 37.000000sp
+    resource 0x7f07011c dimen/hmi_music_plugin_text_38
+      () 38.000000sp
+    resource 0x7f07011d dimen/hmi_music_plugin_text_39
+      () 39.000000sp
+    resource 0x7f07011e dimen/hmi_music_plugin_text_40
+      () 40.000000sp
+    resource 0x7f07011f dimen/hmi_music_plugin_text_41
+      () 41.000000sp
+    resource 0x7f070120 dimen/hmi_music_plugin_text_42
+      () 42.000000sp
+    resource 0x7f070121 dimen/hmi_music_plugin_text_43
+      () 43.000000sp
+    resource 0x7f070122 dimen/hmi_music_plugin_text_44
+      () 44.000000sp
+    resource 0x7f070123 dimen/hmi_music_plugin_text_45
+      () 45.000000sp
+    resource 0x7f070124 dimen/hmi_music_plugin_text_46
+      () 46.000000sp
+    resource 0x7f070125 dimen/hmi_music_plugin_text_47
+      () 47.000000sp
+    resource 0x7f070126 dimen/hmi_music_plugin_text_48
+      () 48.000000sp
+    resource 0x7f070127 dimen/hmi_music_plugin_text_49
+      () 49.000000sp
+    resource 0x7f070128 dimen/hmi_music_plugin_text_50
+      () 50.000000sp
+    resource 0x7f070129 dimen/hmi_music_plugin_text_51
+      () 51.000000sp
+    resource 0x7f07012a dimen/hmi_music_plugin_text_52
+      () 52.000000sp
+    resource 0x7f07012b dimen/hmi_music_plugin_text_53
+      () 53.000000sp
+    resource 0x7f07012c dimen/hmi_music_plugin_text_54
+      () 54.000000sp
+    resource 0x7f07012d dimen/hmi_music_plugin_text_55
+      () 55.000000sp
+    resource 0x7f07012e dimen/hmi_music_plugin_text_56
+      () 56.000000sp
+    resource 0x7f07012f dimen/hmi_music_plugin_text_57
+      () 57.000000sp
+    resource 0x7f070130 dimen/hmi_music_plugin_text_58
+      () 58.000000sp
+    resource 0x7f070131 dimen/hmi_music_plugin_text_59
+      () 59.000000sp
+    resource 0x7f070132 dimen/hmi_music_plugin_text_60
+      () 60.000000sp
+    resource 0x7f070133 dimen/hmi_music_plugin_text_61
+      () 61.000000sp
+    resource 0x7f070134 dimen/hmi_music_plugin_text_62
+      () 62.000000sp
+    resource 0x7f070135 dimen/hmi_music_plugin_text_63
+      () 63.000000sp
+    resource 0x7f070136 dimen/hmi_music_plugin_text_64
+      () 64.000000sp
+    resource 0x7f070137 dimen/hmi_music_plugin_text_65
+      () 65.000000sp
+    resource 0x7f070138 dimen/hmi_music_plugin_text_66
+      () 66.000000sp
+    resource 0x7f070139 dimen/hmi_music_plugin_text_67
+      () 67.000000sp
+    resource 0x7f07013a dimen/hmi_music_plugin_text_68
+      () 68.000000sp
+    resource 0x7f07013b dimen/hmi_music_plugin_text_69
+      () 69.000000sp
+    resource 0x7f07013c dimen/hmi_music_plugin_text_70
+      () 70.000000sp
+    resource 0x7f07013d dimen/hmi_music_plugin_text_71
+      () 71.000000sp
+    resource 0x7f07013e dimen/hmi_music_plugin_text_72
+      () 72.000000sp
+    resource 0x7f07013f dimen/hmi_music_plugin_text_73
+      () 73.000000sp
+    resource 0x7f070140 dimen/hmi_music_plugin_text_74
+      () 74.000000sp
+    resource 0x7f070141 dimen/hmi_music_plugin_text_75
+      () 75.000000sp
+    resource 0x7f070142 dimen/hmi_music_plugin_text_76
+      () 76.000000sp
+    resource 0x7f070143 dimen/hmi_music_plugin_text_77
+      () 77.000000sp
+    resource 0x7f070144 dimen/hmi_music_plugin_text_78
+      () 78.000000sp
+    resource 0x7f070145 dimen/hmi_music_plugin_text_79
+      () 79.000000sp
+    resource 0x7f070146 dimen/hmi_music_plugin_text_8
+      () 8.000000sp
+    resource 0x7f070147 dimen/hmi_music_plugin_text_80
+      () 80.000000sp
+    resource 0x7f070148 dimen/hmi_music_plugin_text_81
+      () 81.000000sp
+    resource 0x7f070149 dimen/hmi_music_plugin_text_82
+      () 82.000000sp
+    resource 0x7f07014a dimen/hmi_music_plugin_text_83
+      () 83.000000sp
+    resource 0x7f07014b dimen/hmi_music_plugin_text_84
+      () 84.000000sp
+    resource 0x7f07014c dimen/hmi_music_plugin_text_85
+      () 85.000000sp
+    resource 0x7f07014d dimen/hmi_music_plugin_text_86
+      () 86.000000sp
+    resource 0x7f07014e dimen/hmi_music_plugin_text_87
+      () 87.000000sp
+    resource 0x7f07014f dimen/hmi_music_plugin_text_88
+      () 88.000000sp
+    resource 0x7f070150 dimen/hmi_music_plugin_text_89
+      () 89.000000sp
+    resource 0x7f070151 dimen/hmi_music_plugin_text_9
+      () 9.000000sp
+    resource 0x7f070152 dimen/hmi_music_plugin_text_90
+      () 90.000000sp
+    resource 0x7f070153 dimen/hmi_music_plugin_text_91
+      () 91.000000sp
+    resource 0x7f070154 dimen/hmi_music_plugin_text_92
+      () 92.000000sp
+    resource 0x7f070155 dimen/hmi_music_plugin_text_93
+      () 93.000000sp
+    resource 0x7f070156 dimen/hmi_music_plugin_text_94
+      () 94.000000sp
+    resource 0x7f070157 dimen/hmi_music_plugin_text_95
+      () 95.000000sp
+    resource 0x7f070158 dimen/hmi_music_plugin_text_96
+      () 96.000000sp

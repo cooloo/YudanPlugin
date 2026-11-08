@@ -1,0 +1,7 @@
+storeFile=E:/felix/work/YudanPlugin/.local/signing/plugin-signing.p12
+keyAlias=egogame
+storePasswordEnv=YD_PLUGIN_STORE_PASSWORD
+keyPasswordEnv=YD_PLUGIN_KEY_PASSWORD
+storePasswordFile=password.txt
+keyPasswordFile=password.txt
+signatureAlgorithm=SHA256withRSA

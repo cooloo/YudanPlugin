@@ -1,0 +1,9 @@
+鱼蛋插件
+
+工程自有 SDK、示例、音乐实现及构建工具采用 GNU LGPL-3.0。
+
+音乐源码基于 xuqian-git/cloudmusic-car：https://github.com/xuqian-git/cloudmusic-car，采用 GNU LGPL-3.0。
+网易云接口与 weapi/eapi 加密代码沿用上游注明的 missuo/kumone 来源：https://github.com/missuo/kumone。
+
+Gradle 包装器等第三方代码保留各自许可和版权。
+既有源码中的第三方版权和许可声明继续有效，具体归属见 docs/许可归属.md。

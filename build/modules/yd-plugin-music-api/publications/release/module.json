@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.egogame.plugin",
+    "module": "yd-plugin-music-api",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.egogame.plugin",
+          "module": "yd-plugin-api",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "yd-plugin-music-api-1.0.0.aar",
+          "url": "yd-plugin-music-api-1.0.0.aar",
+          "size": 2366,
+          "sha512": "6a84440f9adea9566bd0dcbeed13087edd45cedf563673f4a417185ab7e817dbab0fa7e3011be4d0feecd54c97ef0f10156a8031f64dfa4f7cd8c8a9951bd3bb",
+          "sha256": "d4c9b95fd6de3460c2eb5c15bb9abf1903a102977fc24d8d7b4d1a4192d34e0e",
+          "sha1": "90cbbcce7c9124d946acc384c3a34cfbf403049a",
+          "md5": "ff5d32a64816e64111f7b974c0eb7f69"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.egogame.plugin",
+          "module": "yd-plugin-api",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "yd-plugin-music-api-1.0.0.aar",
+          "url": "yd-plugin-music-api-1.0.0.aar",
+          "size": 2366,
+          "sha512": "6a84440f9adea9566bd0dcbeed13087edd45cedf563673f4a417185ab7e817dbab0fa7e3011be4d0feecd54c97ef0f10156a8031f64dfa4f7cd8c8a9951bd3bb",
+          "sha256": "d4c9b95fd6de3460c2eb5c15bb9abf1903a102977fc24d8d7b4d1a4192d34e0e",
+          "sha1": "90cbbcce7c9124d946acc384c3a34cfbf403049a",
+          "md5": "ff5d32a64816e64111f7b974c0eb7f69"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "yd-plugin-music-api-1.0.0-sources.jar",
+          "url": "yd-plugin-music-api-1.0.0-sources.jar",
+          "size": 1786,
+          "sha512": "242885d3cd5fe9f57738c6a1f6fb9a9d4ce87d11600e1727720dddb977e84ed0c9e6a85497b8441ca1274e29ff42a22e22dc01f1b8cab0813d781081800e5e25",
+          "sha256": "6f2d79bab37cc90b830f6d9f50621bb29cc3323da9ae15a40addf4fbf8c41687",
+          "sha1": "861966652e6e18aec0ccde182ca655422604d5b3",
+          "md5": "a1690e8cbf3cbd475c27af30d0592844"
+        }
+      ]
+    }
+  ]
+}

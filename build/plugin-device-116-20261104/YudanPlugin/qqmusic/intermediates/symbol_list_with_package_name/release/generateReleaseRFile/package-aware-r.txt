@@ -1,0 +1,7 @@
+com.qqmusic.car
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_qqmusic_app
+mipmap ic_launcher
+string app_name
+style Theme_QQMusic

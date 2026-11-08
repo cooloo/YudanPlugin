@@ -1,0 +1,32 @@
+[
+  {
+    "name": "云音乐",
+    "file": "netease-1.0.24.ydplugin",
+    "versionName": "1.0.24",
+    "versionCode": 25,
+    "bytes": 1454577,
+    "sha256": "5b2aa87949fee7c1a264a4f5f07a82f3fff8aed6f574d4160c068309d9257275",
+    "signerCertificateSha256": "52f44774ef0da05fde3fe5e5e03b01cb2fbc48183b6ef4c73308c7010a543b46",
+    "source": "E:\\felix\\work\\YudanPlugin\\build\\distribution\\music-plugins\\netease-1.0.24.ydplugin"
+  },
+  {
+    "name": "QQ 音乐",
+    "file": "qqmusic-1.0.24.ydplugin",
+    "versionName": "1.0.24",
+    "versionCode": 25,
+    "bytes": 1459536,
+    "sha256": "4cc7c78fc1e41371c118682592fc412489f833c832c86db29de03df0bacf8e1f",
+    "signerCertificateSha256": "52f44774ef0da05fde3fe5e5e03b01cb2fbc48183b6ef4c73308c7010a543b46",
+    "source": "E:\\felix\\work\\YudanPlugin\\build\\distribution\\music-plugins\\qqmusic-1.0.24.ydplugin"
+  },
+  {
+    "name": "酷狗音乐",
+    "file": "kugoumusic-1.0.24.ydplugin",
+    "versionName": "1.0.24",
+    "versionCode": 25,
+    "bytes": 1315447,
+    "sha256": "8d2224c29a925b3aa88864b42eaf6f56075b9163a330ec5b0d8631b2240f826e",
+    "signerCertificateSha256": "52f44774ef0da05fde3fe5e5e03b01cb2fbc48183b6ef4c73308c7010a543b46",
+    "source": "E:\\felix\\work\\YudanPlugin\\build\\distribution\\music-plugins\\kugoumusic-1.0.24.ydplugin"
+  }
+]

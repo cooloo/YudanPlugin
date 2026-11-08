@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\felix\work\YudanPlugin\build\modules\music-plugin-common\intermediates\tmp\ProcessLibraryManifest\release\tempAndroidManifest5133720018110246253.xml:2:13-83
+INJECTED from E:\felix\work\YudanPlugin\build\modules\music-plugin-common\intermediates\tmp\ProcessLibraryManifest\release\tempAndroidManifest5133720018110246253.xml:2:13-83
+	package
+		INJECTED from E:\felix\work\YudanPlugin\build\modules\music-plugin-common\intermediates\tmp\ProcessLibraryManifest\release\tempAndroidManifest5133720018110246253.xml
+	xmlns:android
+		ADDED from E:\felix\work\YudanPlugin\build\modules\music-plugin-common\intermediates\tmp\ProcessLibraryManifest\release\tempAndroidManifest5133720018110246253.xml:2:23-81
+uses-sdk
+INJECTED from E:\felix\work\YudanPlugin\build\modules\music-plugin-common\intermediates\tmp\ProcessLibraryManifest\release\tempAndroidManifest5133720018110246253.xml reason: use-sdk injection requested
+INJECTED from E:\felix\work\YudanPlugin\build\modules\music-plugin-common\intermediates\tmp\ProcessLibraryManifest\release\tempAndroidManifest5133720018110246253.xml
+INJECTED from E:\felix\work\YudanPlugin\build\modules\music-plugin-common\intermediates\tmp\ProcessLibraryManifest\release\tempAndroidManifest5133720018110246253.xml
+	android:targetSdkVersion
+		INJECTED from E:\felix\work\YudanPlugin\build\modules\music-plugin-common\intermediates\tmp\ProcessLibraryManifest\release\tempAndroidManifest5133720018110246253.xml
+	android:minSdkVersion
+		INJECTED from E:\felix\work\YudanPlugin\build\modules\music-plugin-common\intermediates\tmp\ProcessLibraryManifest\release\tempAndroidManifest5133720018110246253.xml
