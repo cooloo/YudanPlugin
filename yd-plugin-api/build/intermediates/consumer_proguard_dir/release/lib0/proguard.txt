@@ -1,3 +1,0 @@
--keep class com.egogame.plugin.api.** { *; }
--keep interface com.egogame.plugin.api.** { *; }
--keep class * implements com.egogame.plugin.api.YdPlugin { public <init>(); public *; }

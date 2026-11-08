@@ -25,3 +25,45 @@ replay_pid*
 
 # Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
 .kotlin/
+
+# 版本管理元数据
+.svn/
+
+# 本机配置与构建缓存
+.gradle/
+.idea/
+**/build/
+local.properties
+*.iml
+__pycache__/
+*.pyc
+
+# 本地凭据与签名材料
+.local/
+.env
+.env.*
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.key
+*.pem
+*signing.properties
+*secrets.properties
+password.txt
+
+# 安装包与诊断产物
+*.apk
+*.aab
+*.ydplugin
+*.hprof
+*.trace
+
+# 内部记录与完整宿主资源转储
+docs/runtime/host-resources-*.txt
+docs/公开发布检查.md
+docs/构建记录.md
+docs/音乐插件后台任务调整.md
+
+# Gradle 包装器是构建所需文件
+!gradle/wrapper/gradle-wrapper.jar

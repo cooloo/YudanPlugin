@@ -1,2 +1,0 @@
--keep class com.egogame.plugin.music.api.** { *; }
--keep interface com.egogame.plugin.music.api.** { *; }

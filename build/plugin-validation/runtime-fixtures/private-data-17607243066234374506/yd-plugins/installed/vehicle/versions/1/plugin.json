@@ -1,1 +1,0 @@
-{"schemaVersion":1,"id":"vehicle","name":"运行时测试插件","versionCode":1,"versionName":"1","packageKind":"assets","dataSchemaVersion":1,"hostApiMin":1,"hostApiMax":1,"minAndroidApi":28,"requires":[],"runtimeRequirements":[],"contributions":{},"provides":[{"id":"test.assets","api":1}]}

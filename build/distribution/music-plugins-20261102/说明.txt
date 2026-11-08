@@ -1,5 +1,0 @@
-本目录三个 ydplugin 为本次新包，沿用 egogame 插件签名。
-将三个包上传到 Alist，在商店同步下载地址、版本、文件大小和 SHA-256，具体值见上传信息.json。
-音乐插件分发时一并提供对应 YudanPlugin-source.zip。
-本次完成编译、宿主成员 ABI、最终 DEX、签名和条目哈希校验；未安装插件或验证登录播放。
-基线来自当前 MuMu 的鱼蛋桌面 2.0.23 Debug APK，不表示其他 Release 制品已经验收。

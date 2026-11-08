@@ -1,8 +1,0 @@
-{
-  "id": "example.lifecycle", "name": "生命周期示例", "versionCode": 1, "versionName": "1.0.0",
-  "entryClass": "com.egogame.example.plugin.ExamplePlugin", "schemaVersion": 1,
-  "dataSchemaVersion": 1, "packageKind": "code", "hostApiMin": 1, "hostApiMax": 1,
-  "minAndroidApi": 28, "provides": [{ "id": "yudan.ui", "api": 1 }],
-  "requires": [{ "id": "yudan.ui.host", "apiMin": 1, "apiMax": 1 }],
-  "runtimeRequirements": [{ "id": "yudan.plugin-sdk", "abi": "1.0.0" }], "contributions": {}
-}
